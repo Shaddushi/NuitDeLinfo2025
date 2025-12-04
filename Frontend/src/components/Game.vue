@@ -13,8 +13,11 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis cum dignissimos dolorem facere molestias quasi repudiandae. Aspernatur at dolores eos eum impedit maxime officiis perferendis, quidem quis tempora?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem ducimus error et eveniet facilis ipsa iste laborum non officia possimus rerum, suscipit voluptatum? Earum fugit necessitatibus temporibus velit voluptatum.
+                        <Writer :text="text" />
+                    </div>
+
+                    <div class="position-absolute px-4 py-4 bottom-0 custom-right">
+                        <img src="/skip.png" />
                     </div>
 
                 </div>
@@ -26,9 +29,14 @@
 </template>
 
 <script>
+import Writer from "@/components/Writer.vue";
+
 export default {
+    components: {Writer},
     data() {
-        return {}
+        return {
+            text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis cum dignissimos dolorem facere molestias quasi repudiandae. Aspernatur at dolores eos eum impedit maxime officiis perferendis, quidem quis tempora?                          ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem ducimus error et eveniet facilis ipsa iste laborum non officia possimus rerum, suscipit voluptatum? Earum fugit necessitatibus temporibus velit voluptatum."
+        }
     }
 }
 </script>
@@ -51,13 +59,20 @@ export default {
 
 .conversation{
     min-height: 200px;
+    transition: transform 0.1s ease;
 
+    cursor: pointer;
     &:hover{
         box-shadow: 50px 50px white;
+        transform: scale(101%);
     }
 }
 
 .translateY{
     transform: translateY(-50%);
+}
+
+.custom-right{
+    right: 1px;
 }
 </style>
