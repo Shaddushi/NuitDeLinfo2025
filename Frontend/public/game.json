@@ -462,7 +462,251 @@
     "name": "ensemble",
     "has_choice": false,
     "choices": [
-      { "text": "Bienvenue dans le Repo !", "id_suivant": 32 }
+      { "text": "Bienvenue dans le Repo !", "id_suivant": 1001 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1001,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-neutral", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Pfiou ! C'était intense, non ? Désolé pour le comité d'accueil. VLC est... particulière, et LibreOffice prend son rôle très à cœur.",
+        "id_suivant": 1002
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1002,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "player", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "C'est le moins qu'on puisse dire. Je ne m'attendais pas à une telle ambiance.", "id_suivant": 1003 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1003,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-happy", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "On est une famille un peu dysfonctionnelle, mais on est libres. C'est ça qui compte.", "id_suivant": 1004 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1004,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-happy", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Mais parlons de toi. Maintenant que tu es là, il va falloir qu'on configure ton expérience. Dis-moi... c'est quoi ton style ?", "id_suivant": 1005 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1005,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-neutral", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": true,
+    "choices": [
+      { "text": "J'aime quand ça va vite. Je ne veux pas perdre de temps.", "id_suivant": 1010 },
+      { "text": "La sécurité et la vie privée avant tout. Je ne veux pas être espionné.", "id_suivant": 1020 },
+      { "text": "Je ne sais pas trop... j'utilise ce qui est installé par défaut.", "id_suivant": 1030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1010,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-happy", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ah, un adepte de la performance ! J'aime ça. Tu sais, on m'a souvent critiqué là-dessus par le passé, mais j'ai fait de la muscu. Moteur Quantum, tout ça... T'inquiète, avec moi, les pages vont charger avant même que tu aies cliqué. On va tracer !", "id_suivant": 1040 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1020,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-neutral", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Un homme de principes. Tu as bien raison. Ici, tu es en sécurité. Je suis un coffre-fort, mec. Personne ne saura ce que tu regardes à 3h du matin. C'est promis.", "id_suivant": 1040 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1030,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-sad", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Aïe. 'Par défaut' ? C'est triste, ça. Écoute, on va changer ça. La vie est trop courte pour utiliser des outils gris et ennuyeux. Laisse-moi te montrer la vraie liberté.", "id_suivant": 1040 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1040,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-happy", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Tiens, d'ailleurs... (Il sort des badges, autocollants et gadgets en équilibre dans ses bras.)", "id_suivant": 1041 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1041,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "player", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Euh... C'est quoi tout ça ?", "id_suivant": 1042 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1042,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-happy", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ça ? Ce sont mes extensions et mes thèmes ! Regarde, j'ai un bloqueur de pubs, un gestionnaire de mots de passe, un Dark Mode...", "id_suivant": 1043 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1043,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "player", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "player",
+    "has_choice": true,
+    "choices": [
+      { "text": "Tu ne devrais pas fermer quelques trucs ? Tu as l'air de ramer.", "id_suivant": 1050 },
+      { "text": "Laisse-moi t'aider à porter ça.", "id_suivant": 1060 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1050,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-angry", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ramer ? Moi ? Jamais ! J'ai juste beaucoup de processus en cours ! Je peux gérer 500 onglets ouverts si je veux ! Oups, un gadget est tombé...", "id_suivant": 1070 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1060,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-happy", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Oh. Merci. D'habitude, les gens se plaignent juste que je consomme trop de ressources. T'es un vrai toi. On va synchroniser nos profils.", "id_suivant": 1070 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1070,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-happy", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Bon ! Maintenant que tu es équipé, installe-toi. Si tu as besoin de quoi que ce soit, je suis dans le coin. Ah, et fais gaffe à LibreOffice.", "id_suivant": 1080 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1080,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "firefox-happy", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Restons connectés, l'ami. (Il part en moonwalk, trébuche sur un câble puis se rattrape.)", "id_suivant": 1081 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 1081,
+    "bg": "images/background/club_corner.png",
+    "sprite": [
+      { "name": "player", "is_speaking": true }
+    ],
+    "sound": "rock_indie.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Sacré numéro. Mais il a l'air fiable.", "id_suivant": 1082 }
     ],
     "color": "#000000"
   }
