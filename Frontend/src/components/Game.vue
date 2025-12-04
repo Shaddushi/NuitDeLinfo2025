@@ -17,7 +17,7 @@
                     </div>
 
                     <div class="position-absolute px-4 py-4 bottom-0 custom-right">
-                        <img src="/skip.png" />
+                        <img src="/images/skip.png" />
                     </div>
 
                 </div>
@@ -63,7 +63,6 @@ export default {
 
     cursor: pointer;
     &:hover{
-        box-shadow: 50px 50px white;
         transform: scale(101%);
     }
 }
