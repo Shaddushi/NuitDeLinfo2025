@@ -11,15 +11,19 @@ readonly class UserDTO {
 
 	public int $score;
 
+	public int $waifu;
+
 	public function __construct(
 		int $id,
 		string $pseudo,
 		int $avancement,
-		int $score
+		int $score,
+		int $waifu
 	){
 		$this->id = $id;
 		$this->pseudo = $pseudo;
 		$this->avancement = $avancement;
 		$this->score = $score;
+		$this->waifu = $waifu;
 	}
 }

@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Credit from '@/components/Credit.vue';
 import Accueil from "@/components/Accueil.vue";
 import GameContainer from "@/components/GameContainer.vue";
-
+import Login from "@/components/Login.vue";
 const routes = [
     // ... autres routes
     {
@@ -20,6 +20,11 @@ const routes = [
         name: 'game',
         component: GameContainer,
     },
+    {
+        path: '/login',
+        name: 'login',
+        component: Login,
+    }
 ];
 
 const router = createRouter({
