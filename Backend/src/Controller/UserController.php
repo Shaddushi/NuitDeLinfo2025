@@ -66,6 +66,21 @@ class UserController extends AbstractController {
 		return $this->api->success($user);
 	}
 
+	#[Route("/avancement",
+		name: "avancement",
+		methods: ["POST", "PUT"]
+	)]
+	public function updateAvancement(Request $req): Response{
+		$token = $req->headers->get("Authorization");
+		$uid = $this->tokenService->readToken($token)->id;
+		$data = json_decode($req->getContent(), true);
+		$avancement = $data["avancement"] ?? 0;
+		return $this->api->success(
+			$this->service->updateAvancement($uid, $avancement),
+			202
+		);
+	}
+
 	#[Route("/{id}",
 		name: "show",
 		methods: ["GET"]

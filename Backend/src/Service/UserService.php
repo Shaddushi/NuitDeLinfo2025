@@ -48,6 +48,16 @@ class UserService {
 		return $this->factory->toDTO($user);
 	}
 
+	public function updateAvancement(int $uid, int $avancement): UserDTO{
+		$user = $this->rep->getById($uid);
+		if($user == null){
+			throw UserException::noUser();
+		}
+		$user->setAvancement($avancement);
+		$this->rep->save($user);
+		return $this->factory->toDTO($user);
+	}
+
 	public function login(string $pseudo, string $password): UserDTO{
 		$pseudo = trim($pseudo);
 		$password = trim($password);
