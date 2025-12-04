@@ -58,12 +58,17 @@ class UserService {
 		return $this->factory->toDTO($user);
 	}
 
-	public function updateAvancement(int $uid, int $avancement): UserDTO{
+	public function updateAvancement(int $uid, ?int $avancement=null, ?int $waifu=null): UserDTO{
 		$user = $this->rep->getById($uid);
 		if($user == null){
 			throw UserException::noUser();
 		}
-		$user->setAvancement($avancement);
+		if($avancement !== null){
+			$user->setAvancement($avancement);
+		}
+		if($waifu !== null){
+			$user->setWaifu($waifu);
+		}
 		$this->rep->save($user);
 		return $this->factory->toDTO($user);
 	}
