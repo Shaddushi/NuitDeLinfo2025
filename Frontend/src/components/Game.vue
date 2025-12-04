@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .custom-background{
     background-image: url('test.jpg');
     background-repeat: no-repeat;
@@ -51,6 +51,10 @@ export default {
 
 .conversation{
     min-height: 200px;
+
+    &:hover{
+        box-shadow: 50px 50px white;
+    }
 }
 
 .translateY{
