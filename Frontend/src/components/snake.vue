@@ -7,13 +7,17 @@ let ctx = null;
 const bruno = new Image();
 bruno.src = '/bruno.png';
 const fruit = new Image();
-fruit.src = '/foxy.png';
+const fruitList = ['/foxy.png', '/vlc.png']
 const cols = Math.round(parent.innerWidth / 32) -1;
 const rows = Math.round(parent.innerHeight  / 32) -1;
 const cell = 32;
 const speed = 8; 
 
 let snake = [];
+
+const snakeSize = ref(snake.length -1);
+
+
 let dir = { x: 1, y: 0 };
 let apple = { x: 5, y: 5 };
 let running = false;
@@ -23,6 +27,7 @@ let timer = null;
 function placeApple() {
   apple.x = Math.floor(Math.random() * cols);
   apple.y = Math.floor(Math.random() * rows);
+  fruit.src = fruitList[Math.floor(Math.random() * fruitList.length)];
   if (snake.some(s => s.x === apple.x && s.y === apple.y)) placeApple();
 }
 
@@ -100,6 +105,7 @@ function drawRotatedImage(img, x, y, w, h, angle) {
 
 function loop() {
   if (!running) return;
+    snakeSize.value = snake.length -1;
   update();
   draw();
 }
@@ -127,12 +133,13 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="container">
-    <canvas ref="canvasRef" class="snake-game" tabindex="0"></canvas>
+  <div class="containerPersonalized">
     <div class="hud">
-      <div>Score: {{ snake.length }}</div>
+      <div>Score: {{ snakeSize }}</div>
       <div class="hint">Flèches pour diriger — Espace pour (re)lancer</div>
     </div>
+    <canvas ref="canvasRef" class="snake-game" tabindex="0"></canvas>
+    
   </div>
 </template>
 
@@ -142,20 +149,27 @@ onBeforeUnmount(() => {
 
 <style scoped>
 
-.container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width:100%;
-    height:100%;
-    text-align: center;
-}
-.hud {
-  margin-top: 8px;
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  justify-content: center;
-}
-.hint { color: #666; font-size: 0.9rem; }
+    .containerPersonalized {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width:100vw;
+        height:100%;
+        text-align: center;
+        align-items: center;
+    }
+    .hud {
+        display: flex;
+        margin-top: 8px;
+        gap: 12px;
+        justify-content: center;
+        background: wheat;
+        width: fit-content;
+        padding: 4px 12px;    
+        border-radius: 50px;
+    }
+    .hint { color: #666; font-size: 0.9rem; }
 </style>

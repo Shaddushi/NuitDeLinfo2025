@@ -45,6 +45,16 @@ class UserRepository extends ServiceEntityRepository {
 	/**
 	 * @return User[]
 	 */
+	public function getOrderByScore(): array{
+		return $this->createQueryBuilder('u')
+			->orderBy("u.score", "DESC")
+			->getQuery()
+			->getResult();
+	}
+
+	/**
+	 * @return User[]
+	 */
 	public function getAll(): array{
 		return $this->createQueryBuilder('u')
 			->getQuery()
