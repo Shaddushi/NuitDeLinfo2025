@@ -10,15 +10,29 @@ export default {
     },
     data() {
         return {
-            displayedText: ''
+            displayedText: '',
+            interval: null
         }
     },
+
+    methods: {
+        forceFinish() {
+            console.log('forceFinished called')
+            this.displayedText = this.text
+            this.$emit('finished')
+            clearInterval(this.interval)
+        }
+    },
+
     mounted() {
         let index = 0
-        const interval = setInterval(() => {
+        this.interval = setInterval(() => {
             this.displayedText += this.text[index]
             index++
-            if (index >= this.text.length) clearInterval(interval)
+            if (index >= this.text.length){
+                clearInterval(this.interval)
+                this.$emit('finished')
+            }
         }, this.speed)
     }
 }

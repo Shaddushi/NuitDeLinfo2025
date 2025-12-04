@@ -2,7 +2,7 @@
     <div class="h-100 w-100 bg-light custom-background" :style="`background-image: url('`+currentBackground+`')`">
         <div class="position-absolute p-3">
             <div class="bg-danger ">
-                {{current}}
+                {{finished}}
             </div>
         </div>
         <div class="d-flex flex-column h-100 p-4">
@@ -37,11 +37,17 @@
                     </div>
 
                     <div class="p-4">
-                        <Writer
-                        :text="text.text"
-                        class="choice-line"
-                        v-for="text in currentTexts"
-                        @click.stop="nextConversation(text.id_suivant)" />
+                        <div
+                        v-for="(text, i) in currentTexts"
+                        :key="currentId + '-' + i">
+                            <Writer
+                            :text="text.text"
+                            class="choice-line"
+                            :ref="'writer-'+i"
+                            @finished="finished = true"
+                            @click.stop="nextConversation(text.id_suivant)" />
+                        </div>
+
                     </div>
 
                     <div class="position-absolute px-4 py-4 bottom-0 custom-right">
@@ -69,6 +75,7 @@ export default {
             items: [],
             current: null,
             currentId: 1,
+            finished: false,
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis cum dignissimos dolorem facere molestias quasi repudiandae. Aspernatur at dolores eos eum impedit maxime officiis perferendis, quidem quis tempora?                          ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem ducimus error et eveniet facilis ipsa iste laborum non officia possimus rerum, suscipit voluptatum? Earum fugit necessitatibus temporibus velit voluptatum."
         }
     },
@@ -101,7 +108,7 @@ export default {
 
     methods: {
         async loadData(){
-            const data = await import('@public/game.json')
+            const data = await import('/public/game.json')
             this.items = data.default
             this.getCurrentData()
         },
@@ -111,12 +118,23 @@ export default {
         },
 
         nextConversation(id_suivant){
+
             if(!id_suivant){
-                return;
+                if(this.current.has_choices){
+                    return;
+                }
+                if(!this.finished){
+                    console.log(this.$refs)
+                    console.log(this.$refs['writer-0'])
+                    this.$refs['writer-0'][0].forceFinish();
+                    return;
+                }
+                id_suivant = this.current.choices[0].id_suivant
             }
             console.log(id_suivant)
             this.currentId = id_suivant
             this.getCurrentData()
+            this.finished = false
         }
     },
 
@@ -179,5 +197,6 @@ export default {
     &:hover{
         text-decoration: underline;
     }
+    user-select: none;
 }
 </style>
