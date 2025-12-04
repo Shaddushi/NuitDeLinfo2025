@@ -9,7 +9,8 @@ class UserFactory {
 	public function toDTO(User $user): UserDTO{
 		return new UserDTO(
 			id: $user->getId(),
-			pseudo: $user->getPseudo()
+			pseudo: $user->getPseudo(),
+			avancement: $user->getAvancement()
 		);
 	}
 }
