@@ -19,8 +19,10 @@ onMounted(() => {
 
 <style scoped>
 .snake-game {
-  width: 10vw;
-  height: 100vh;
-  background: #eee;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: #eee;
 }
 </style>
