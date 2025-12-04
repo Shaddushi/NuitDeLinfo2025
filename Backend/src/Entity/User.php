@@ -22,6 +22,9 @@ class User {
 	#[ORM\Column(name: "date_creation", type: "datetime", nullable: false)]
 	private \DateTime $dateCreation;
 
+	#[ORM\Column(type: "integer", nullable: false, options: ["default" => 0])]
+	private int $avancement;
+
 	public function __construct(
 		string $pseudo,
 		string $password
@@ -29,6 +32,7 @@ class User {
 		$this->pseudo = $pseudo;
 		$this->password = $password;
 		$this->dateCreation = new \DateTime();
+		$this->avancement = 0;
 	}
 
 	public function getId(): ?int {
@@ -53,5 +57,18 @@ class User {
 
 	public function getDateCreation(): \DateTime {
 		return $this->dateCreation;
+	}
+
+
+	public function getAvancement(): int {
+		return $this->avancement;
+	}
+
+	/**
+	 * @param int $avancement
+	 */
+	public function setAvancement(int $avancement): static {
+		$this->avancement = $avancement;
+		return $this;
 	}
 }

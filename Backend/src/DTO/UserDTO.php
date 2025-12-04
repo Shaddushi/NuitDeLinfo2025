@@ -7,11 +7,15 @@ readonly class UserDTO {
 
 	public string $pseudo;
 
+	public int $avancement;
+
 	public function __construct(
 		int $id,
-		string $pseudo
+		string $pseudo,
+		int $avancement
 	){
 		$this->id = $id;
 		$this->pseudo = $pseudo;
+		$this->avancement = $avancement;
 	}
 }

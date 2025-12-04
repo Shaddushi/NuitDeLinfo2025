@@ -55,6 +55,17 @@ class UserController extends AbstractController {
 		return $this->api->success($this->tokenService->createToken($user->id));
 	}
 
+	#[Route("/",
+		name: "self",
+		methods: ["GET"]
+	)]
+	public function showSelf(Request $req): Response{
+		$token = $req->headers->get("Authorization");
+		$uid = $this->tokenService->readToken($token)->id;
+		$user = $this->service->getById($uid);
+		return $this->api->success($user);
+	}
+
 	#[Route("/{id}",
 		name: "show",
 		methods: ["GET"]
