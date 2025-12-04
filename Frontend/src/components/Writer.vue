@@ -1,16 +1,17 @@
 <template>
-    <p>{{ displayedText }}</p>
+    <span>{{ displayedText }}</span>
 </template>
 
 <script>
 export default {
     props: {
         text: { type: String, required: true },
-        speed: { type: Number, default: 20 }
+        speed: { type: Number, default: 20 },
+        isChoice: { type: Boolean, default: false }
     },
     data() {
         return {
-            displayedText: '',
+            displayedText: this.isChoice ? '> ' : '',
             interval: null
         }
     },
