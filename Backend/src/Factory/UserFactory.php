@@ -11,7 +11,8 @@ class UserFactory {
 			id: $user->getId(),
 			pseudo: $user->getPseudo(),
 			avancement: $user->getAvancement(),
-			score: $user->getScore()
+			score: $user->getScore(),
+			waifu: $user->getWaifu()
 		);
 	}
 }

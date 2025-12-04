@@ -74,9 +74,16 @@ class UserController extends AbstractController {
 		$token = $req->headers->get("Authorization");
 		$uid = $this->tokenService->readToken($token)->id;
 		$data = json_decode($req->getContent(), true);
-		$avancement = $data["avancement"] ?? 0;
+		$avancement = $data["avancement"] ?? null;
+		if($avancement != null){
+			$avancement = intval($avancement);
+		}
+		$waifu = $data["waifu"] ?? null;
+		if($waifu != null){
+			$waifu = intval($waifu);
+		}
 		return $this->api->success(
-			$this->service->updateAvancement($uid, $avancement),
+			$this->service->updateAvancement($uid, $avancement, $waifu),
 			202
 		);
 	}

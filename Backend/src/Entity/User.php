@@ -28,6 +28,9 @@ class User {
 	#[ORM\Column(type: "integer", nullable: false, options: ["default" => 0])]
 	private int $score;
 
+	#[ORM\Column(type: "integer", nullable: false, options: ["default" => 0])]
+	private int $waifu;
+
 	public function __construct(
 		string $pseudo,
 		string $password
@@ -37,6 +40,7 @@ class User {
 		$this->dateCreation = new \DateTime();
 		$this->avancement = 0;
 		$this->score = 0;
+		$this->waifu = 0;
 	}
 
 	public function getId(): ?int {
@@ -79,5 +83,13 @@ class User {
 
 	public function setScore(int $score): void {
 		$this->score = $score;
+	}
+
+	public function getWaifu(): int {
+		return $this->waifu;
+	}
+
+	public function setWaifu(int $waifu): void {
+		$this->waifu = $waifu;
 	}
 }
