@@ -2,10 +2,6 @@
   import SnakeGame from './components/snake.vue';
   import Game from './components/Game.vue';
   import Navigation from "@/components/Navigation.vue";
-  import { createIcons, icons } from 'lucide';
-
-  // Caution, this will import all the icons and bundle them.
-  createIcons({ icons });
 </script>
 
 <template>
