@@ -1,5 +1,10 @@
 <template>
     <div class="h-100 w-100 bg-light custom-background" :style="`background-image: url('`+currentBackground+`')`">
+        <div class="position-absolute p-3">
+            <div class="bg-danger ">
+                {{current}}
+            </div>
+        </div>
         <div class="d-flex flex-column h-100 p-4">
             <div class="flex-grow-1">
                 ici
@@ -32,7 +37,11 @@
                     </div>
 
                     <div class="p-4">
-                        <Writer :text="text.text" v-for="text in currentTexts" @click.stop="nextConversation(text.id_suivant)" />
+                        <Writer
+                        :text="text.text"
+                        class="choice-line"
+                        v-for="text in currentTexts"
+                        @click.stop="nextConversation(text.id_suivant)" />
                     </div>
 
                     <div class="position-absolute px-4 py-4 bottom-0 custom-right">
@@ -44,6 +53,9 @@
 
 
         </div>
+
+        <audio ref="audio" :src="currentAudio" autoplay loop></audio>
+
     </div>
 </template>
 
@@ -80,6 +92,10 @@ export default {
 
         currentTexts(){
             return this.current ? this.current.choices : []
+        },
+
+        currentAudio(){
+            return this.current ? this.current.sound : ""
         }
     },
 
@@ -157,5 +173,11 @@ export default {
     inset: 0;
     background-color: rgba(0, 0, 0, 0.5);
     pointer-events: none;
+}
+
+.choice-line{
+    &:hover{
+        text-decoration: underline;
+    }
 }
 </style>
