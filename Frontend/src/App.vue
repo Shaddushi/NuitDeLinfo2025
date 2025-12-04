@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <SnakeGame />
+    <SnakeGame />
 </template>
 
 <style scoped></style>

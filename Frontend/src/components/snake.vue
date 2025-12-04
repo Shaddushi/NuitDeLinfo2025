@@ -1,28 +1,161 @@
 <script setup>
-import { onMounted, ref } from "vue";
+import { ref, onMounted, onBeforeUnmount, computed } from 'vue';
 
 const canvasRef = ref(null);
-let context = null;
+let ctx = null;
+
+const bruno = new Image();
+bruno.src = '/bruno.png';
+const fruit = new Image();
+fruit.src = '/foxy.png';
+const cols = Math.round(parent.innerWidth / 32) -1;
+const rows = Math.round(parent.innerHeight  / 32) -1;
+const cell = 32;
+const speed = 8; 
+
+let snake = [];
+let dir = { x: 1, y: 0 };
+let apple = { x: 5, y: 5 };
+let running = false;
+let timer = null;
+
+
+function placeApple() {
+  apple.x = Math.floor(Math.random() * cols);
+  apple.y = Math.floor(Math.random() * rows);
+  if (snake.some(s => s.x === apple.x && s.y === apple.y)) placeApple();
+}
+
+function resetGame() {
+  snake = [{ x: Math.floor(cols / 2), y: Math.floor(rows / 2) }];
+  dir = { x: 1, y: 0 };
+  placeApple();
+  running = true;
+  draw();
+}
+
+function update() {
+  const head = { x: snake[0].x + dir.x, y: snake[0].y + dir.y };
+
+  if (head.x < 0) head.x = cols - 1;
+  if (head.x >= cols) head.x = 0;
+  if (head.y < 0) head.y = rows - 1;
+  if (head.y >= rows) head.y = 0;
+
+  if (snake.some(s => s.x === head.x && s.y === head.y)) {
+    running = false;
+    return;
+  }
+
+  snake.unshift(head);
+
+  if (head.x === apple.x && head.y === apple.y) {
+    placeApple();
+  } else {
+    snake.pop();
+  }
+}
+
+function draw() {
+  const canvas = canvasRef.value;
+  if (!canvas) return;
+  ctx = canvas.getContext('2d');
+  canvas.width = cols * cell;
+  canvas.height = rows * cell;
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Draw snake body
+  for (let i = 1; i < snake.length; i++) {
+    ctx.fillStyle = '#f4ab41';
+    if(dir.x == -1) ctx.fillRect(snake[i].x * cell - 5, snake[i].y * cell +2 , cell +5, cell);
+    else if(dir.x == 1) ctx.fillRect(snake[i].x * cell + 5, snake[i].y * cell +2 , cell + 5, cell);
+    else if(dir.y == -1) ctx.fillRect(snake[i].x * cell +2 , snake[i].y * cell -5, cell, cell +5);
+    else if(dir.y == 1) ctx.fillRect(snake[i].x * cell +2, snake[i].y * cell +5, cell, cell +5);
+ };
+  // Draw fruit
+  ctx.drawImage(fruit,apple.x * cell + 2, apple.y * cell + 2, cell + 5, cell +5);
+  // Draw snake head
+  if(dir.x === 1) drawRotatedImage(bruno,snake[0].x * cell - 2,snake[0].y * cell - 2,cell + 10,cell + 10,270);
+  else if(dir.x === -1) drawRotatedImage(bruno,snake[0].x * cell - 2,snake[0].y * cell - 2,cell + 10,cell + 10,90);
+  else if(dir.y === 1) drawRotatedImage(bruno,snake[0].x * cell - 2,snake[0].y * cell - 2,cell + 10,cell + 10,360);
+  else if(dir.y === -1) drawRotatedImage(bruno,snake[0].x * cell - 2,snake[0].y * cell - 2,cell + 10,cell + 10,180);
+}
+
+function drawRotatedImage(img, x, y, w, h, angle) {
+    ctx.save(); 
+    ctx.translate(x + w / 2, y + h / 2); 
+    ctx.rotate(angle * Math.PI / 180); 
+
+    ctx.drawImage(
+        img,
+        -w / 2,
+        -h / 2,
+        w,  
+        h
+    );
+
+    ctx.restore();
+}
+
+function loop() {
+  if (!running) return;
+  update();
+  draw();
+}
+
+function handleKey(e) {
+  const k = e.key;
+  if ((k === 'ArrowUp' || k === 'w') && dir.y !== 1) dir = { x: 0, y: -1 };
+  else if ((k === 'ArrowDown' || k === 's') && dir.y !== -1) dir = { x: 0, y: 1 };
+  else if ((k === 'ArrowLeft' || k === 'a') && dir.x !== 1) dir = { x: -1, y: 0 };
+  else if ((k === 'ArrowRight' || k === 'd') && dir.x !== -1) dir = { x: 1, y: 0 };
+  else if (k === ' ' && !running) resetGame();
+}
 
 onMounted(() => {
-  const canvas = canvasRef.value;
-  context = canvas.getContext("2d");
+  ctx = canvasRef.value.getContext('2d');
+  resetGame();
+  window.addEventListener('keydown', handleKey);
+  timer = setInterval(loop, 1000 / speed);
+});
 
-  context.fillStyle = "red";
-  context.fillRect(10, 10, 30, 30);
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', handleKey);
+  clearInterval(timer);
 });
 </script>
 
 <template>
-  <canvas ref="canvasRef" class="snake-game"></canvas>
+  <div class="container">
+    <canvas ref="canvasRef" class="snake-game" tabindex="0"></canvas>
+    <div class="hud">
+      <div>Score: {{ snake.length }}</div>
+      <div class="hint">Flèches pour diriger — Espace pour (re)lancer</div>
+    </div>
+  </div>
 </template>
 
+
+
+
+
 <style scoped>
-.snake-game {
-    display: flex;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    background: #eee;
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    text-align: center;
 }
+.hud {
+  margin-top: 8px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.hint { color: #666; font-size: 0.9rem; }
 </style>
