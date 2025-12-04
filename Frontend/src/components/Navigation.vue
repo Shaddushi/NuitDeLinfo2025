@@ -19,14 +19,19 @@
             </span>
             <ul class="list-unstyled">
                 <li class="py-2">
-                    <a href="#" class="text-decoration-none text-white fs-5">
+                    <a href="/" class="text-decoration-none text-white fs-5">
                         <i class="bi bi-chevron-right me-2"/> Accueil
                     </a>
                 </li>
                 <li class="py-2">
-                    <a href="#" class="text-decoration-none text-white fs-5">
+                    <a href="/game" class="text-decoration-none text-white fs-5">
                         <i class="bi bi-chevron-right me-2"/> Jeu
                     </a>
+                </li>
+                <li class="py-2">
+                  <a href="/credits" class="text-decoration-none text-white fs-5">
+                    <i class="bi bi-chevron-right me-2"/> Crédits
+                  </a>
                 </li>
             </ul>
         </div>
