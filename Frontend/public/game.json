@@ -1,90 +1,469 @@
 [
-    {
-        "id": 1,
-        "bg": "images/background/forest.jpeg",
-        "sprite": [
-            {
-                "name": "images/characters/libreoffice-happy.png",
-                "is_speaking": true
-            }
-        ],
-        "sound": "forest.mp3",
-        "name": "libreoffice",
-        "has_choice": false,
-        "choices": [
-            {
-                "text": "Salut, je suis libreoffice",
-                "id_suivant": 2
-            }
-        ],
-        "color": "#008000"
-    },
-    {
-        "id": 2,
-        "bg": "images/background/forest.jpeg",
-        "sprite": [
-            {
-                "name": "images/characters/libreoffice-happy.png",
-                "is_speaking": false
-            }
-        ],
-        "sound": "forest.mp3",
-        "name": "player",
-        "has_choice": false,
-        "choices": [
-            {
-                "text": "Salut, je suis le joueur",
-                "id_suivant": 3
-            }
-        ],
-        "color": "#000000"
-    },
-    {
-        "id": 3,
-        "bg": "images/background/forest.jpeg",
-        "sprite": [
-            {
-                "name": "images/characters/libreoffice-happy.png",
-                "is_speaking": false
-            }
-        ],
-        "sound": "forest.mp3",
-        "name": "player",
-        "has_choice": false,
-        "choices": [
-            {
-                "text": "Quel choix faire?",
-                "id_suivant": 4
-            },
-            {
-                "text": "Olala je dois faire un choix",
-                "id_suivant": 4
-            }
-        ],
-        "color": "#000000"
-    },
-    {
-        "id": 4,
-        "bg": "images/background/forest.jpeg",
-        "sprite": [
-            {
-                "name": "images/characters/libreoffice-happy.png",
-                "is_speaking": false
-            },
-            {
-                "name": "images/characters/firefox-happy.png",
-                "is_speaking": true
-            }
-        ],
-        "sound": "forest.mp3",
-        "name": "Firefox",
-        "has_choice": false,
-        "choices": [
-            {
-                "text": "Salut, je suis firefox, je suis le copain de libreoffice",
-                "id_suivant": 1
-            }
-        ],
-        "color": "#ffa500"
-    }
+  {
+    "id": 1,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/shadow.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Vous entrez dans la salle du Club Informatique. Des vieux PC, des câbles partout, des posters de pingouins et de gnous.",
+        "id_suivant": 2
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 2,
+    "bg": "images/background/black.png",
+    "sprite": [],
+    "sound": "school.mp3",
+    "name": "narration",
+    "has_choice": false,
+    "choices": [
+      { "text": "(L'écran est noir. Le bruit d'une porte qui s'ouvre : CLIC.)", "id_suivant": 3 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "C'est donc ici... le fameux Club des Logiciels Libres.", "id_suivant": 4 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "On m'a dit que l'ambiance était unique. J'espère qu'ils ne vont pas me forcer à compiler mon propre noyau.",
+        "id_suivant": 5
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "sound": "school.mp3",
+    "name": "narration",
+    "has_choice": false,
+    "choices": [
+      { "text": "(L'écran s'allume. Une salle de classe en désordre apparaît.)", "id_suivant": 6 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "sound": "school.mp3",
+    "name": "???",
+    "has_choice": false,
+    "choices": [
+      { "text": "Hé ! Regardez qui voilà ! Un nouvel utilisateur... je veux dire, un nouveau membre !", "id_suivant": 7 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 7,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/firefox-neutral.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Salut ! Moi c'est Firefox. Je suis le visage public du club : rapide et flexible !", "id_suivant": 8 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 8,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/firefox-neutral.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Entre, fais pas ton timide ! On ne track pas trop tes mouvements ici.", "id_suivant": 9 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 9,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Euh, salut. Je viens pour l'inscription.", "id_suivant": 10 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 10,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "sound": "school.mp3",
+    "name": "???",
+    "has_choice": false,
+    "choices": [
+      { "text": "L'inscription ? Le formulaire A-38 est-il rempli au format ODT ?", "id_suivant": 11 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 11,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Je suis LibreOffice, secrétaire général. L'interopérabilité, c'est du sérieux.",
+        "id_suivant": 12
+      }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 12,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/firefox-neutral.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "(Riant) Détend-toi, Libre. Tu vas le faire planter.", "id_suivant": 13 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 13,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "sound": "crash.mp3",
+    "name": "???",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "J'AI LU LE FICHIER ! J'AI TOUT LU ! MÊME LE CODE BINAIRE DU CAFÉ !",
+        "id_suivant": 14
+      }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 14,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/vlc-happy.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "vlc",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Salut ! Je suis VLC ! Je mange tout : MP4, MKV, AVI, même corrompus !",
+        "id_suivant": 15
+      }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 15,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Elle a l'air robuste... mais un peu spéciale.", "id_suivant": 16 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 16,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "VLC, arrête d'essayer de décoder la cafetière.", "id_suivant": 17 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 17,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "sound": "techno.mp3",
+    "name": "???",
+    "has_choice": false,
+    "choices": [
+      { "text": "WAVEFORM CHECK ! ONE TWO ! LE GAIN EST TROP BAS !", "id_suivant": 18 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 18,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Yo le nouveau ! Moi c'est Audacity ! Je coupe le bruit, je normalize tout !",
+        "id_suivant": 19
+      }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 19,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "C'est... très énergique.", "id_suivant": 20 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 20,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "sound": "school.mp3",
+    "name": "???",
+    "has_choice": false,
+    "choices": [
+      { "text": "Euh... Audacity... tu satures...", "id_suivant": 21 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 21,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/debian-sad.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "B-bonjour... Je suis Debian. Je préfère quand tout est très stable...",
+        "id_suivant": 22
+      }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 22,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Sans Debian, la moitié du club s'écroulerait.", "id_suivant": 23 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 23,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "sound": "school.mp3",
+    "name": "???",
+    "has_choice": false,
+    "choices": [
+      { "text": "-i input.life -c:v libx264 -preset slow -crf 18 output.love", "id_suivant": 24 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 24,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Pardon ?", "id_suivant": 25 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 25,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-sad.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Je suis FFmpeg... Je préfère les lignes de commande...",
+        "id_suivant": 26
+      }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 26,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "sound": "school.mp3",
+    "name": "???",
+    "has_choice": false,
+    "choices": [
+      { "text": "HEY CHAT ! POGCHAMP ! On a un nouvel invité !", "id_suivant": 27 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 27,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/obs-happy.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Coucou ~ Moi c'est OBS ! Regarde la caméra !", "id_suivant": 28 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 28,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Une streameuse, une intello timide, un DJ, un plot de chantier... Quel club.",
+        "id_suivant": 29
+      }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 29,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      { "text": "Alors ? Prêt à rejoindre l'open-source ?", "id_suivant": 30 }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 30,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Je... Je crois que je n'ai pas le choix. La licence est virale...",
+        "id_suivant": 31
+      }
+    ],
+    "color": "#000000"
+  },
+
+  {
+    "id": 31,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "sound": "school.mp3",
+    "name": "ensemble",
+    "has_choice": false,
+    "choices": [
+      { "text": "Bienvenue dans le Repo !", "id_suivant": 32 }
+    ],
+    "color": "#000000"
+  }
 ]
