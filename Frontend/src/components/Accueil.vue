@@ -5,8 +5,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Accueil',
-};
+<script setup>
+
 </script>

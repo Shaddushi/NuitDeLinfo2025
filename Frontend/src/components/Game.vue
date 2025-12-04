@@ -101,7 +101,7 @@ export default {
 
     methods: {
         async loadData(){
-            const data = await import('@public/game.json')
+            const data = await import('/public/game.json')
             this.items = data.default
             this.getCurrentData()
         },
