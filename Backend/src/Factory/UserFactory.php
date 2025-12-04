@@ -10,7 +10,8 @@ class UserFactory {
 		return new UserDTO(
 			id: $user->getId(),
 			pseudo: $user->getPseudo(),
-			avancement: $user->getAvancement()
+			avancement: $user->getAvancement(),
+			score: $user->getScore()
 		);
 	}
 }

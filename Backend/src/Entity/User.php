@@ -25,6 +25,9 @@ class User {
 	#[ORM\Column(type: "integer", nullable: false, options: ["default" => 0])]
 	private int $avancement;
 
+	#[ORM\Column(type: "integer", nullable: false, options: ["default" => 0])]
+	private int $score;
+
 	public function __construct(
 		string $pseudo,
 		string $password
@@ -33,6 +36,7 @@ class User {
 		$this->password = $password;
 		$this->dateCreation = new \DateTime();
 		$this->avancement = 0;
+		$this->score = 0;
 	}
 
 	public function getId(): ?int {
@@ -64,11 +68,16 @@ class User {
 		return $this->avancement;
 	}
 
-	/**
-	 * @param int $avancement
-	 */
 	public function setAvancement(int $avancement): static {
 		$this->avancement = $avancement;
 		return $this;
+	}
+
+	public function getScore(): int {
+		return $this->score;
+	}
+
+	public function setScore(int $score): void {
+		$this->score = $score;
 	}
 }

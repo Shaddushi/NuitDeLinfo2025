@@ -29,6 +29,16 @@ class UserService {
 		return $this->factory->toDTO($user);
 	}
 
+	/**
+	 * @return UserDTO[]
+	 */
+	public function getAllScores(): array{
+		$users = $this->rep->getOrderByScore();
+		return array_map(function($user){
+			return $this->factory->toDTO($user);
+		}, $users);
+	}
+
 	public function createUser(string $pseudo, string $password): UserDTO{
 		$pseudo = trim($pseudo);
 		$password = trim($password);
@@ -54,6 +64,18 @@ class UserService {
 			throw UserException::noUser();
 		}
 		$user->setAvancement($avancement);
+		$this->rep->save($user);
+		return $this->factory->toDTO($user);
+	}
+
+	public function updateScore(int $uid, int $score): UserDTO{
+		$user = $this->rep->getById($uid);
+		if($user == null){
+			throw UserException::noUser();
+		}
+		if($user->getScore() < $score){
+			$user->setScore($score);
+		}
 		$this->rep->save($user);
 		return $this->factory->toDTO($user);
 	}

@@ -81,6 +81,30 @@ class UserController extends AbstractController {
 		);
 	}
 
+	#[Route("/score",
+		name: "score",
+		methods: ["POST", "PUT"]
+	)]
+	public function updateScore(Request $req): Response{
+		$token = $req->headers->get("Authorization");
+		$uid = $this->tokenService->readToken($token)->id;
+		$data = json_decode($req->getContent(), true);
+		$avancement = $data["score"] ?? 0;
+		return $this->api->success(
+			$this->service->updateScore($uid, $avancement),
+			202
+		);
+	}
+
+	#[Route("/score/tab",
+		name: "score_tab",
+		options: ["no_password_check" => true],
+		methods: ["GET"]
+	)]
+	public function getScores(): Response{
+		return $this->api->success($this->service->getAllScores());
+	}
+
 	#[Route("/{id}",
 		name: "show",
 		methods: ["GET"]
