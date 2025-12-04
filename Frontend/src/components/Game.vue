@@ -12,8 +12,10 @@
                             Eric Ramat
                         </div>
                     </div>
+
                     <div class="p-4">
-                        <Writer :text="text" />
+<!--                        <Writer :text="text" />-->
+                        {{current}}
                     </div>
 
                     <div class="position-absolute px-4 py-4 bottom-0 custom-right">
@@ -35,7 +37,26 @@ export default {
     components: {Writer},
     data() {
         return {
+            items: [],
+            current: null,
+            currentId: 1,
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis cum dignissimos dolorem facere molestias quasi repudiandae. Aspernatur at dolores eos eum impedit maxime officiis perferendis, quidem quis tempora?                          ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem ducimus error et eveniet facilis ipsa iste laborum non officia possimus rerum, suscipit voluptatum? Earum fugit necessitatibus temporibus velit voluptatum."
+        }
+    },
+
+    methods: {
+        async loadData(){
+            // const data = await import('game.json')
+            this.items = data.default
+        },
+
+        getCurrentData(){
+            this.current = this.items[this.currentId]
+        },
+
+        mounted(){
+            this.loadData()
+            this.getCurrentData()
         }
     }
 }
