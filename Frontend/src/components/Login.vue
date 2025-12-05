@@ -6,19 +6,16 @@
     const isConnecting = ref(true);
     const password = ref('');
     const username = ref('');
-
     function Connect(){
         axios.post('http://api.devsfecations.fr/user/login', {
             pseudo: username.value,
             password: password.value
             }).then(function (response) {
-                console.log(response)
-                if(response.data.error){
-                    alert("Erreur lors de la connexion : " + response.data.error);
-                    return;
-                }
                 localStorage.setItem('token', response.data.token);
                 window.location.replace("/");
+        }).catch(function (response){
+            alert("Erreur lors de la connexion : " + response.response.data.message);
+            return;
         })
     }
 
@@ -28,14 +25,12 @@
             pseudo: username.value,
             password: password.value
             }).then(function (response) {
-                console.log(response)
-                if(response.data.error){
-                    alert("Erreur lors de la création du compte : " + response.data.error);
-                    return;
-                }
                 localStorage.setItem('token', response.data.token);
-                // window.location.replace("/");
-            })
+                window.location.replace("/");
+            }).catch(function (response){
+            alert("Erreur lors de la connexion : " + response.response.data.message);
+            return;
+        })
     }
 
 </script>
@@ -58,8 +53,8 @@
                 <button class="btn btn-primary mt-3" type="submit">Se connecter</button> 
             </div>  
             <button class="loginNoProfile" @click="isConnecting=false">Pas de profil ?</button>
-        </form>
 
+        </form>
 
     </div>
     <div class="loginWindow" v-else>
@@ -84,6 +79,8 @@
 
 
 <style scoped>
+
+
 
     .loginMain{
         height: 100vh;
