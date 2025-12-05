@@ -18,7 +18,6 @@ export default {
 
     methods: {
         forceFinish() {
-            console.log('forceFinished called')
             this.displayedText = this.text
             this.$emit('finished')
             clearInterval(this.interval)

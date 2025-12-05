@@ -2,7 +2,7 @@
     <div class="h-100 w-100 bg-light custom-background" :style="`background-image: url('`+currentBackground+`')`">
 <!--        <div class="position-absolute p-3">-->
 <!--            <div class="bg-danger ">-->
-<!--                {{finished}}-->
+<!--                ici-->
 <!--            </div>-->
 <!--        </div>-->
         <div class="d-flex flex-column h-100 p-4">
@@ -46,7 +46,7 @@
                             :class="{'choice-line': current?.has_choice}"
                             :ref="'writer-'+i"
                             @finished="finished = true"
-                            @click.stop="nextConversation(text.id_suivant)" />
+                            @click.stop="nextConversation(text)" />
                         </div>
 
                     </div>
@@ -119,8 +119,8 @@ export default {
             this.current = this.items.find(item => item.id === this.currentId)
         },
 
-        nextConversation(id_suivant){
-
+        nextConversation(text){
+            let id_suivant = text?.id_suivant
             if(!id_suivant){
                 if(this.current.has_choice){
                     return;
@@ -131,7 +131,10 @@ export default {
                 }
                 id_suivant = this.current.choices[0].id_suivant
             }
-            console.log(id_suivant)
+            if(text?.id_waifu){
+                this.waifuId = text.id_waifu
+            }
+
             this.currentId = id_suivant
             this.getCurrentData()
 
