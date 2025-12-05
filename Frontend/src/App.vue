@@ -42,11 +42,6 @@
 </template>
 
 <style>
-.center-placement{
-    position: absolute;
-    top: 50%;
-    left: -30px;
-    transform: translateY(-50%);
-}
+
 
 </style>

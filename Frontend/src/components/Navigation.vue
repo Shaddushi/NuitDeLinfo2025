@@ -20,7 +20,7 @@
 
 <template>
     <button
-        class="btn btn-dark text-white center-placement rounded-circle d-flex align-items-center justify-content-end fs-5"
+        class="btn btn-dark text-white center-placement rounded-end-circle d-flex align-items-center justify-content-end fs-3"
         style="width: 60px; height: 60px"
         data-bs-toggle="offcanvas"
         data-bs-target="#sideMenu">
@@ -82,5 +82,12 @@
         &:hover{
             background-color: var(--bs-primary);
         }
+    }
+
+    .center-placement{
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        transform: translateY(-50%);
     }
 </style>

@@ -63,7 +63,7 @@ const props = defineProps({
     .card {
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       transition: 0.3s;
-      border-radius: 20px 20px 30px 30px;
+      border-radius: 30px;
       padding: 8px;
     }
 
