@@ -3,6 +3,7 @@ import Credit from '@/components/Credit.vue';
 import Accueil from "@/components/Accueil.vue";
 import GameContainer from "@/components/GameContainer.vue";
 import Login from "@/components/Login.vue";
+import Scoreboard from "@/components/Scoreboard.vue";
 const routes = [
     // ... autres routes
     {
@@ -24,6 +25,11 @@ const routes = [
         path: '/login',
         name: 'login',
         component: Login,
+    },
+    {
+        path: '/scoreboard',
+        name: 'scoreboard',
+        component: Scoreboard,
     }
 ];
 
