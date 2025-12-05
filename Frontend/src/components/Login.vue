@@ -40,7 +40,7 @@
 <template>
     <div class="loginMain bg-light">
     <div class="h4 text-center bg-primary text-white py-3 W-100">
-        Waifree
+        Linus University
     </div>
     <div class="loginWindow" v-if="isConnecting">
         <h2 class="loginTitle">Connexion</h2>
