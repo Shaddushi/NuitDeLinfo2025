@@ -42,7 +42,7 @@
                         :key="currentId + '-' + i">
                             <Writer
                             :text="text.text"
-                            :is-choice="current.has_choice"
+                            :is-choice="current?.has_choice"
                             :class="{'choice-line': current?.has_choice}"
                             :ref="'writer-'+i"
                             @finished="finished = true"
@@ -51,7 +51,7 @@
 
                     </div>
 
-                    <div class="position-absolute px-4 py-4 bottom-0 custom-right" v-if="!current.has_choice">
+                    <div class="position-absolute px-4 py-4 bottom-0 custom-right" v-if="!current?.has_choice">
                         <img src="/images/skip.png" class="skip-image" />
                     </div>
 
