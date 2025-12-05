@@ -1516,5 +1516,860 @@
       { "text": "C'était... intense. J'ai encore des taches lumineuses devant les yeux.", "id_suivant": 5001 }
     ],
     "color": "#000000"
+  },
+  {
+    "id": 5001,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "ET LÀ, ON APPLIQUE L'EFFET PAULSTRETCH ! ÇA VA DURER 400 ANS !", "id_suivant": 5002 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5002,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "SALUT ! C'EST MOI, LE NOUVEAU !", "id_suivant": 5003 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5003,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "YO ! Pas besoin de crier, mec ! J'ai vu ta forme d'onde entrer. T'as une bonne fréquence de résonance.", "id_suivant": 5004 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5004,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Merci... je crois ?", "id_suivant": 5005 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5005,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": true,
+    "choices": [
+      { "text": "On fait tout péter. Sature le son !", "id_suivant": 5010 },
+      { "text": "Il y a trop de bruit de fond. Il faut nettoyer ça.", "id_suivant": 5020 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5010,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": true,
+    "choices": [
+      { "text": "Pousser le volume à +3dB", "id_suivant": 5011 },
+      { "text": "Pousser le volume à +50dB", "id_suivant": 5012 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5011,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Raisonnable.", "id_suivant": 5030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5012,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "OUAIS ! C'EST ÇA ! LE SON EST DEVENU SOLIDE ! ON PEUT MARCHER DESSUS !", "id_suivant": 5030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5020,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "On va faire une 'Réduction de bruit'. Sélectionne la zone silencieuse et applique le filtre. ...Le souffle a disparu.", "id_suivant": 5030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5030,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": true,
+    "choices": [
+      { "text": "Liberté, Égalité, Fréquences !", "id_suivant": 5040 },
+      { "text": "ASMR... bruit de clavier mécanique...", "id_suivant": 5041 },
+      { "text": "AAAAAAH !", "id_suivant": 5042 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5040,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "Puissant ! Ça c'est du bon médium ! Réverbération 'Cathédrale'.", "id_suivant": 5050 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5041,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ouh... c'est clean. Pas un seul pop. Presque relaxant.", "id_suivant": 5050 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5042,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "WOAH ! C'est brut, c'est punk ! Je vais le mettre en boucle avant le drop !", "id_suivant": 5050 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5050,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "Merci pour la session, le nouveau. T'es un bon plugin. File ! Solo de 15 minutes à exporter en FLAC.", "id_suivant": 5060 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5060,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Elle vit vraiment dans sa propre fréquence.", "id_suivant": 6000 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5001,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "ET LÀ, ON APPLIQUE L'EFFET PAULSTRETCH ! ÇA VA DURER 400 ANS !", "id_suivant": 5002 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5002,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "SALUT ! C'EST MOI, LE NOUVEAU !", "id_suivant": 5003 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5003,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "YO ! Pas besoin de crier, mec ! J'ai vu ta forme d'onde entrer. T'as une bonne fréquence de résonance.", "id_suivant": 5004 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5004,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Merci... je crois ?", "id_suivant": 5005 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5005,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": true,
+    "choices": [
+      { "text": "On fait tout péter. Sature le son !", "id_suivant": 5010 },
+      { "text": "Il y a trop de bruit de fond. Il faut nettoyer ça.", "id_suivant": 5020 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5010,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": true,
+    "choices": [
+      { "text": "Pousser le volume à +3dB", "id_suivant": 5011 },
+      { "text": "Pousser le volume à +50dB", "id_suivant": 5012 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5011,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Raisonnable.", "id_suivant": 5030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5012,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "OUAIS ! C'EST ÇA ! LE SON EST DEVENU SOLIDE ! ON PEUT MARCHER DESSUS !", "id_suivant": 5030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5020,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "On va faire une 'Réduction de bruit'. Sélectionne la zone silencieuse et applique le filtre. ...Le souffle a disparu.", "id_suivant": 5030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5030,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": true,
+    "choices": [
+      { "text": "Liberté, Égalité, Fréquences !", "id_suivant": 5040 },
+      { "text": "ASMR... bruit de clavier mécanique...", "id_suivant": 5041 },
+      { "text": "AAAAAAH !", "id_suivant": 5042 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5040,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "Puissant ! Ça c'est du bon médium ! Réverbération 'Cathédrale'.", "id_suivant": 5050 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5041,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ouh... c'est clean. Pas un seul pop. Presque relaxant.", "id_suivant": 5050 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5042,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "WOAH ! C'est brut, c'est punk ! Je vais le mettre en boucle avant le drop !", "id_suivant": 5050 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5050,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [
+      { "text": "Merci pour la session, le nouveau. T'es un bon plugin. File ! Solo de 15 minutes à exporter en FLAC.", "id_suivant": 5060 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 5060,
+    "bg": "images/background/sound_room.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/drum_bass.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Elle vit vraiment dans sa propre fréquence.", "id_suivant": 6000 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6001,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "ffmpeg",
+    "has_choice": true,
+    "choices": [
+      { "text": "Tout va bien ? Tu as l'air de compiler difficilement.", "id_suivant": 6002 },
+      { "text": "Hé FFmpeg ! Tu révises pour un contrôle ?", "id_suivant": 6003 },
+      { "text": "C'est quoi ce charabia ?", "id_suivant": 6004 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6002,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-sad.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ah ! SIGINT ! Tu m'as interrompue ! Je... je ne compile pas, juste le buffer plein.", "id_suivant": 6005 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6003,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [
+      { "text": "Hiii ! Non ! Pas un contrôle ! Trop de variables, je pré-calcule mes réponses.", "id_suivant": 6005 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6004,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ce n'est pas du charabia ! La syntaxe pure ! Personne ne comprend mes arguments.", "id_suivant": 6005 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6005,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "ffmpeg",
+    "has_choice": true,
+    "choices": [
+      { "text": "Mais c'est ce qui fait ta force. Tu es puissante. Tu peux tout faire.", "id_suivant": 6010 },
+      { "text": "Je peux être ton interface, si tu veux. Dis-moi ce que tu veux, je traduis.", "id_suivant": 6011 },
+      { "text": "Essaie peut-être de simplifier ? Parle en MP3 au lieu de parler en FLAC.", "id_suivant": 6012 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6010,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [
+      { "text": "Merci. Rare qu'on apprécie la ligne de commande à sa juste valeur.", "id_suivant": 6020 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6011,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [
+      { "text": "Vraiment ? Un 'Front-end' humain ? Acceptable, mais exigeante sur les paramètres.", "id_suivant": 6020 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6012,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [
+      { "text": "Parler en MP3 ? Techniquement faisable, sacrifier précision pour fluidité. Intéressant.", "id_suivant": 6020 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6020,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ah ! Le signal de synchronisation ! Je dois y aller. Merci. Je garde ce moment en format sans perte.", "id_suivant": 6030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 6030,
+    "bg": "images/background/school_corridor.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/ambient_minimal.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Elle est bizarre, mais elle a un cœur en or massif... ou en silicium pur.", "id_suivant": 7001 }
+    ],
+    "color": "#000000"
+  },
+   {
+    "id": 7001,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Eh bien... quelle matinée. Entre le volume à 200% d'Audacity et le stress du processeur de FFmpeg, j'ai les oreilles qui bourdonnent. J'ai besoin de calme. De stabilité.", "id_suivant": 5002 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7002,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "System halt ! Arrêtez tout de suite ! Vous générez une interruption matérielle non sollicitée !", "id_suivant": 5003 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7003,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Désolé... Je cherchais juste un endroit calme.", "id_suivant": 5004 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7004,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "Calme ? C'est plus que du calme ici. C'est la branche 'Stable'. Rien ne bouge. Rien ne change. Rien ne plante.\nTu n'es pas une mise à jour 'Unstable', n'est-ce pas ? Tu ne vas pas casser mes dépendances ?", "id_suivant": 5005 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7005,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Promis. Je suis juste un utilisateur standard.", "id_suivant": 5006 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7006,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "Bon. 'Utilisateur standard', c'est acceptable. Tant que tu ne demandes pas les privilèges root sans permission.\nJe suis en train d'effectuer la maintenance du catalogue. C'est une tâche qui demande des années. On ne précipite pas les choses ici. Si un livre est mal classé, tout le système s'effondre.", "id_suivant": 5007 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7007,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": true,
+    "choices": [
+      { "text": "Je veux t'aider à trier. J'aime quand les choses sont solides et vérifiées.", "id_suivant": 5008 },
+      { "text": "Je préfère apprendre. Enseigne-moi ta philosophie.", "id_suivant": 5100 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7008,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "Tu aimes la solidité ? Bien. Très bien. La plupart des gens veulent juste 'la dernière nouveauté'. Ils ne comprennent pas que la nouveauté amène les bugs.\nNous allons vérifier l'intégrité de chaque paquet... je veux dire, de chaque livre.", "id_suivant": 5009 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7009,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-happy.png", "is_speaking": true },
+      { "name": "images/characters/player.png", "is_speaking": false }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "Tu vois ce livre ? Il n'a pas bougé depuis 1998. C'est rassurant, non ? On sait exactement ce qu'il y a dedans.\nTu es méticuleux. Tu ne jettes pas les livres n'importe comment comme le ferait ce fougueux Fedora ou cette tête brûlée d'Arch.", "id_suivant": 5010 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7010,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "C'est reposant, en fait. On se sent en sécurité.", "id_suivant": 5011 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7011,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "C'est ça, le secret. La sécurité avant tout. On se moque de moi parce que je suis 'vieille école'. Mais quand leurs systèmes crashent le vendredi soir, vers qui ils reviennent en pleurant ? Vers Maman Debian.\nTiens, prends celui-là. Il est lourd, mais il ne te laissera jamais tomber. C'est comme une brique. Une brique de confiance.", "id_suivant": 5012 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7100,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "Tu veux comprendre le Code ? L'Éthique ? C'est... inattendu.\nCeci est la documentation. La vraie. Pas les tutoriels YouTube simplifiés.\nLis l'article 1. 'Le Logiciel doit être libre'.\nÇa veut dire quoi pour toi, 'libre' ?", "id_suivant": 5101 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7101,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Faire ce que je veux ?", "id_suivant": 5102 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7102,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "Non. C'est plus grand que ça. La liberté d'aider ton voisin. La liberté de comprendre comment le monde fonctionne.\nTu sais, mes enfants... Ubuntu, Mint... ils sont partis loin. Ils ont mis du maquillage, des interfaces brillantes. Ils ont oublié d'où ils viennent.\nMais ici, dans ces pages, c'est le cœur pur. Le noyau.", "id_suivant": 5103 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7103,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Tu te sens seule, parfois ?", "id_suivant": 5104 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7104,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "Je ne suis jamais seule. J'ai la communauté. Des milliers de gens qui veillent sur moi, qui corrigent mes moindres erreurs. C'est une forme d'amour, tu ne crois pas ? Un amour très rigoureux, fait de rapports de bugs et de patchs de sécurité.\nMerci d'avoir lu avec moi. C'est agréable de partager le noyau... euh, le savoir.", "id_suivant": 5012 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7012,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-happy.png", "is_speaking": true },
+      { "name": "images/characters/player.png", "is_speaking": false }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "Le cycle solaire se termine. Le cron job du soir va bientôt s'exécuter.\nTu n'es pas si mal, pour un binaire inconnu. Tu n'as rien cassé. Tu as respecté les dépendances.\nC'est une marque de confiance. Ne la perds pas. Je ne la révoquerai pas... pour l'instant.", "id_suivant": 5013 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7013,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Merci, Debian. Je la garderai en sécurité.", "id_suivant": 5014 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7014,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/debian-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      { "text": "exit ! Je veux dire... à demain ! Et n'oublie pas de faire tes mises à jour ! Mais pas trop souvent ! Juste quand c'est nécessaire !", "id_suivant": 5015 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 7015,
+    "bg": "images/background/library.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/piano_slow.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Stable, sécurisée, et éternelle. Je commence à comprendre pourquoi tout le monde respecte ce club.", "id_suivant": 9999 }
+    ],
+    "color": "#000000"
   }
 ]
