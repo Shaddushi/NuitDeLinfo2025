@@ -74,6 +74,7 @@ export default {
     data() {
         return {
             items: [],
+            waifuId: null,
             current: null,
             currentId: 1,
             finished: false,
@@ -133,6 +134,14 @@ export default {
             console.log(id_suivant)
             this.currentId = id_suivant
             this.getCurrentData()
+
+            if(this.current?.waifu_choice){
+                const next = this.current.waifu_choice.find(item => item.id === this.waifuId)
+                if(next) {
+                    this.currentId = next.id_suivant
+                    this.getCurrentData()
+                }
+            }
             this.finished = false
         }
     },

@@ -4,6 +4,7 @@
       'credit-page text-white p-4 d-flex h-100 flex-column align-items-center',
       { 'credit-page-game': timerActive }
     ]"
+    @click="showClickEffect"
   >
     <!-- Barre du haut -->
     <div class="top-bar w-100 mb-5">
@@ -69,6 +70,11 @@
     <div class="bottom-0 position-fixed mb-2">
       Merci à VLC, Libre Office, ffmpeg, firefox, debian, audacity et OBS d'exister.
     </div>
+    <div
+        v-if="clickEffect.visible"
+        class="click-effect"
+        :style="{ top: clickEffect.y + 'px', left: clickEffect.x + 'px' }"
+    ></div>
   </div>
 </template>
 
@@ -97,6 +103,12 @@ export default {
         letters_role: c.role.split(''),
       })),
       score: 0,
+      clickEffect: {
+        visible: false,
+        x: 0,
+        y: 0,
+        timeoutId: null,
+      },
     };
   },
   methods: {
@@ -138,7 +150,6 @@ export default {
     },
     sendScore() {
       const token = localStorage.getItem('token');
-      console.log(token);
 
       axios.post('https://api.devsfecations.fr/user/score', {
         score: this.score,
@@ -152,6 +163,25 @@ export default {
         console.error('Erreur lors de l\'envoi du score:', error);
       });
     },
+    showClickEffect(event) {
+      if (!this.timerActive) return;
+
+      const x = event.clientX;
+      const y = event.clientY;
+
+      if (this.clickEffect.timeoutId) {
+        clearTimeout(this.clickEffect.timeoutId);
+      }
+
+      this.clickEffect.x = x;
+      this.clickEffect.y = y;
+      this.clickEffect.visible = true;
+
+      this.clickEffect.timeoutId = setTimeout(() => {
+        this.clickEffect.visible = false;
+        this.clickEffect.timeoutId = null;
+      }, 300);
+    },
   },
   beforeUnmount() {
     if (this.timerId) {
@@ -161,6 +191,7 @@ export default {
 };
 </script>
 
+<style scoped>
 <style scoped>
 h1 {
   font-weight: bold;
@@ -176,7 +207,6 @@ h1 {
   width: 100%;
 }
 
-/* titre centré horizontalement en haut */
 .credits-title {
   position: absolute;
   top: 10px;
@@ -187,7 +217,6 @@ h1 {
   margin: 0;
 }
 
-/* bloc bouton + chrono aligné à droite */
 .top-right {
   margin-left: auto;
   display: flex;
@@ -202,11 +231,11 @@ h1 {
 }
 
 .credit-page-game {
-  cursor: url('/images/pointer-01.webp') 16 16, auto;
+  cursor: url("/images/pointer-01.webp") 16 16, auto;
 }
 
 .credit-page-game:active {
-  cursor: url('/images/pointer-02.webp') 16 16, auto;
+  cursor: url("/images/pointer-02.webp") 16 16, auto;
 }
 
 /* état initial (hors animation) */
@@ -235,5 +264,17 @@ h1 {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Effet visuel au clic (remplace visuellement la souris) */
+.click-effect {
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  margin-left: -32px; /* pour centrer sur le clic */
+  margin-top: -32px;
+  pointer-events: none;
+  background: url("/images/debris.gif") no-repeat center;
+  background-size: contain;
 }
 </style>
