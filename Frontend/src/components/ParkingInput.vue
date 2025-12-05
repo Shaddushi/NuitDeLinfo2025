@@ -158,9 +158,9 @@ const attemptPark = () => {
     }
 };
 
-const showMessage = (msg) => {
+const showMessage = (msg, timeout=2000) => {
     message.value = msg;
-    setTimeout(() => message.value = '', 2000);
+    setTimeout(() => message.value = '', timeout);
 };
 
 // --- CONTROLS ---
@@ -204,6 +204,7 @@ onUnmounted(() => {
 
 onMounted(() => {
     getPseudos();
+    showMessage("Connexion: Garez vous sur la place correspondante à votre pseudo pour remplir ce champ !", 8000);
 })
 
 const carStyle = computed(() => ({
