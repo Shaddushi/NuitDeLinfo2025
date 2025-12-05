@@ -1,3 +1,23 @@
+<script setup>
+    import { ref, onMounted , watch} from "vue";
+    
+    const isLogged = ref(false);
+    
+    onMounted(() => {
+        setInterval(() => {
+            const token = localStorage.getItem("token");
+            isLogged.value = !!token;
+        }, 200); 
+    });
+
+
+
+    function logout() {
+        localStorage.removeItem("token");
+    }
+</script>
+
+
 <template>
     <button
         class="btn btn-dark text-white center-placement rounded-circle d-flex align-items-center justify-content-end fs-5"
@@ -13,12 +33,11 @@
             <button type="button" class="btn-close bg-white rounded-circle" data-bs-dismiss="offcanvas"></button>
         </div>
 
-        <div class="offcanvas-body ">
-            <span class="text-white">
+        <div class="offcanvas-body container-onglet">
 
-            </span>
+            <div>
             <ul class="list-unstyled">
-                <li class="py-2">
+                <li class="py-2" v-if="!isLogged">
                     <a href="/login" class="text-decoration-none text-white fs-5">
                         <i class="bi bi-chevron-right me-2"/> Se connecter
                     </a>
@@ -28,7 +47,7 @@
                         <i class="bi bi-chevron-right me-2"/> Accueil
                     </a>
                 </li>
-                <li class="py-2">
+                <li class="py-2" v-if="isLogged">
                     <a href="/game" class="text-decoration-none text-white fs-5">
                         <i class="bi bi-chevron-right me-2"/> Jeu
                     </a>
@@ -39,14 +58,23 @@
                   </a>
                 </li>
             </ul>
+            </div>
+            <ul class="list-unstyled mt-auto" v-if="isLogged">
+                <li class="py-2">
+                  <button @click="logout" class="text-decoration-none text-white fs-5" style="background: none;border: none;">
+                    <i class="bi bi-chevron-right me-2"/> Logout
+                  </button>
+                </li>
+            </ul>
         </div>
     </div>
 </template>
 
-<script>
-export default {
-    data() {
-        return {}
+
+<style scoped>
+    .container-onglet {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
     }
-}
-</script>
+</style>
