@@ -4362,11 +4362,12 @@
 	},
 	{
 		"id": 11999,
-		"bg": "images/background/black.png",
+		"bg": "images/background/fin.png",
 		"sprite": [],
+        "fin": true,
 		"name": "system",
 		"has_choice": false,
-		"choices": [{ "text": "FIN DU JEU. Merci d'avoir joué à Libre Hearts !", "id_suivant": 11999 }],
+		"choices": [{ "text": "FIN DU JEU. Merci d'avoir joué à Linus University !", "id_suivant": 11999 }],
 		"color": "#000000"
 	}
 ]

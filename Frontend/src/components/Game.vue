@@ -2,7 +2,8 @@
     <div class="h-100 w-100 bg-light custom-background" :style="`background-image: url('`+currentBackground+`')`">
 <!--        <div class="position-absolute p-3">-->
 <!--            <div class="bg-danger ">-->
-<!--                ici-->
+<!--                <button class="btn btn-danger" @click="nextConversation({id: 11500, id_suivant: 11501 })">Triche:-->
+<!--                    {{ isGameFinished }}</button>-->
 <!--            </div>-->
 <!--        </div>-->
         <div class="d-flex flex-column h-100 p-4">
@@ -24,10 +25,11 @@
 
                     </div>
                 </div>
-                <div class="text bg-white border border-3 border-dark custom-border-2 shadow conversation fs-5 position-relative"
+                <div class="text bg-white border border-3 border-dark custom-border-2 shadow conversation fs-5 position-relative bottom-block"
                  @click="nextConversation(null)"
                 :class="{
-                    'cursor-pointer': currentTexts.length == 1
+                    'cursor-pointer': currentTexts.length == 1,
+                    'hide': isGameFinished
                 }">
                     <div class="position-absolute px-4">
                         <div class="rounded-3 px-3 text-white translateY" :style="'background-color: '+currentColor">
@@ -78,6 +80,7 @@ export default {
             current: null,
             currentId: 1,
             finished: false,
+            isGameFinished: false,
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda blanditiis cum dignissimos dolorem facere molestias quasi repudiandae. Aspernatur at dolores eos eum impedit maxime officiis perferendis, quidem quis tempora?                          ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolorem ducimus error et eveniet facilis ipsa iste laborum non officia possimus rerum, suscipit voluptatum? Earum fugit necessitatibus temporibus velit voluptatum."
         }
     },
@@ -145,8 +148,20 @@ export default {
                     this.getCurrentData()
                 }
             }
+
+            if(this.current?.fin){
+                this.gameFinished()
+            }
+
             this.finished = false
-        }
+        },
+
+        gameFinished(){
+            setTimeout(() => {
+                this.isGameFinished = true;
+            }, 3000)
+        },
+
     },
 
     mounted(){
@@ -219,5 +234,22 @@ export default {
 
 .skip-image{
     user-select: none;
+}
+
+.bottom-block {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.bottom-block.hide {
+    opacity: 0;
+    transform: translateY(50px); /* descend en disparaissant */
+    pointer-events: none;
 }
 </style>
