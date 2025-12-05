@@ -470,7 +470,7 @@
     "id": 1001,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-neutral", "is_speaking": true }
+      { "name": "images/characters/firefox-neutral.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -487,7 +487,7 @@
     "id": 1002,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/player", "is_speaking": true }
+      { "name": "images/characters/player.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "player",
@@ -501,7 +501,7 @@
     "id": 1003,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-happy", "is_speaking": true }
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -515,7 +515,7 @@
     "id": 1004,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-happy", "is_speaking": true }
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -529,7 +529,7 @@
     "id": 1005,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-neutral", "is_speaking": true }
+      { "name": "images/characters/firefox-neutral.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -545,7 +545,7 @@
     "id": 1010,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-happy", "is_speaking": true }
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -559,7 +559,7 @@
     "id": 1020,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-neutral", "is_speaking": true }
+      { "name": "images/characters/firefox-neutral.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -573,7 +573,7 @@
     "id": 1030,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-sad", "is_speaking": true }
+      { "name": "images/characters/firefox-sad.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -587,7 +587,7 @@
     "id": 1040,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-happy", "is_speaking": true }
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -601,7 +601,7 @@
     "id": 1041,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/player", "is_speaking": true }
+      { "name": "images/characters/player.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "player",
@@ -615,7 +615,7 @@
     "id": 1042,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-happy", "is_speaking": true }
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -629,7 +629,7 @@
     "id": 1043,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/player", "is_speaking": true }
+      { "name": "images/characters/player.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "player",
@@ -644,7 +644,7 @@
     "id": 1050,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-angry", "is_speaking": true }
+      { "name": "images/characters/firefox-angry.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -658,7 +658,7 @@
     "id": 1060,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-happy", "is_speaking": true }
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -672,7 +672,7 @@
     "id": 1070,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-happy", "is_speaking": true }
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -686,7 +686,7 @@
     "id": 1080,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/firefox-happy", "is_speaking": true }
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "firefox",
@@ -700,7 +700,7 @@
     "id": 1081,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/player", "is_speaking": true }
+      { "name": "images/characters/player.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
     "name": "player",
