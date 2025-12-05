@@ -33,7 +33,7 @@
 
   <SnakeGame v-if="isPlayingSnake" /> 
 
-    <div class="h-100 w-100">
+    <div class="h-100 w-100" :class="{no_overflow: isPlayingSnake}">
 
         <Navigation />
              <router-view />
@@ -42,11 +42,9 @@
 </template>
 
 <style>
-.center-placement{
-    position: absolute;
-    top: 50%;
-    left: -30px;
-    transform: translateY(-50%);
-}
+
+  .no_overflow{
+    overflow: hidden;
+  }
 
 </style>

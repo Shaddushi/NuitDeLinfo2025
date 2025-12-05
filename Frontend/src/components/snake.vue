@@ -5,10 +5,10 @@ const canvasRef = ref(null);
 let ctx = null;
 
 const bruno = new Image();
-bruno.src = '/bruno.png';
+bruno.src = '/images/snake/bruno.png';
 const fruit = new Image();
-const fruitList = ['/foxy.png', '/vlc.png']
-const cols = Math.round(parent.innerWidth / 32) -1;
+const fruitList = ['/images/snake/foxy.png', '/images/snake/vlc.png','/images/snake/audacity.png','/images/snake/debian.png','/images/snake/ffmpeg.png','/images/snake/libreOffice.png','/images/snake/obs.png']
+const cols = Math.round(parent.innerWidth / 32) -2;
 const rows = Math.round(parent.innerHeight  / 32) -1;
 const cell = 32;
 const speed = 8; 
@@ -79,7 +79,7 @@ function draw() {
     else if(dir.y == 1) ctx.fillRect(snake[i].x * cell +2, snake[i].y * cell +5, cell, cell +5);
  };
   // Draw fruit
-  ctx.drawImage(fruit,apple.x * cell + 2, apple.y * cell + 2, cell + 5, cell +5);
+    ctx.drawImage(fruit,apple.x * cell + 2, apple.y * cell + 2, cell + 5, cell +5);
   // Draw snake head
   if(dir.x === 1) drawRotatedImage(bruno,snake[0].x * cell - 2,snake[0].y * cell - 2,cell + 10,cell + 10,270);
   else if(dir.x === -1) drawRotatedImage(bruno,snake[0].x * cell - 2,snake[0].y * cell - 2,cell + 10,cell + 10,90);
@@ -91,7 +91,6 @@ function drawRotatedImage(img, x, y, w, h, angle) {
     ctx.save(); 
     ctx.translate(x + w / 2, y + h / 2); 
     ctx.rotate(angle * Math.PI / 180); 
-
     ctx.drawImage(
         img,
         -w / 2,

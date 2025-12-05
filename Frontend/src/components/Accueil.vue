@@ -1,6 +1,5 @@
-
 <script setup>
-  import StudentsCards from './StudentsCards.vue';
+import StudentsCards from './StudentsCards.vue';
 
 </script>
 
@@ -29,11 +28,9 @@
         <StudentsCards CharText="Elle est stable, très stable, peut être même un peu trop, Debian ! l'Atlas moderne !" CharName="Debian" CharImg="/images/characters/debian-neutral.png"></StudentsCards>
         <StudentsCards CharText="FFmpeg ! Loin d'être sociable, ne la fixer pas trop longtemps ou elle risque de perdre 'des frames' " CharName="FFmpeg" CharImg="/images/characters/ffmpeg-neutral.png"></StudentsCards>
         <StudentsCards CharText="OBS, ta streameuse préférée ! Elle capture tout ce qui se passe ici en temps réel ! Dis bonjour à la caméra !" CharName="OBS" CharImg="/images/characters/obs-neutral.png"></StudentsCards>
-
       </div>
     </div>
 </template>
-
 
 
 <style scoped>
@@ -67,16 +64,16 @@
         
       }
 
-    .tab_pres{
-      width: 80%;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
-      max-width: calc(300px * 3);
-      gap: 20px;
-      margin-bottom: 50px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 10px;
-    }
+.tab_pres {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    max-width: calc(300px * 3);
+    gap: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
 
 </style>
