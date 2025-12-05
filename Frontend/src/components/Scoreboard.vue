@@ -40,7 +40,7 @@ export default {
   },
   methods: {
     goToGame() {
-      this.$router.push('/game');
+      this.$router.push('/credits');
     },
 
     getAllScores() {
