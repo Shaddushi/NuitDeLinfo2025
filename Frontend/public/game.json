@@ -2280,7 +2280,7 @@
 		],
 		"name": "protagoniste",
 		"has_choice": true,
-        "custom_field": "dcfvjghbkjnk,l",
+        "custom_field": "choose_waifu",
 		"choices": [
 			{
 				"text": "C'est Firefox. Il est tellement charismatique.",

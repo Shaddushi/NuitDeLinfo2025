@@ -7,7 +7,7 @@
     const password = ref('');
     const username = ref('');
     function Connect(){
-        axios.post('http://api.devsfecations.fr/user/login', {
+        axios.post('https://api.devsfecations.fr/user/login', {
             pseudo: username.value,
             password: password.value
             }).then(function (response) {
@@ -21,7 +21,7 @@
 
 
     function createAccount(){
-        axios.post('http://api.devsfecations.fr/user/signin',  {
+        axios.post('https://api.devsfecations.fr/user/signin',  {
             pseudo: username.value,
             password: password.value
             }).then(function (response) {
