@@ -6,7 +6,7 @@
       { "name": "images/characters/shadow.png", "is_speaking": true }
     ],
     "sound": "school.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       {
@@ -18,7 +18,7 @@
   },
   {
     "id": 2,
-    "bg": "images/background/black.png",
+    "bg": "images/background/classroom.png",
     "sprite": [],
     "sound": "school.mp3",
     "name": "narration",
@@ -32,10 +32,10 @@
     "id": 3,
     "bg": "images/background/classroom.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "school.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "C'est donc ici... le fameux Club des Logiciels Libres.", "id_suivant": 4 }
@@ -46,10 +46,10 @@
     "id": 4,
     "bg": "images/background/classroom.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "school.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       {
@@ -74,7 +74,9 @@
   {
     "id": 6,
     "bg": "images/background/classroom.png",
-    "sprite": [],
+    "sprite": [
+        { "name": "images/characters/firefox-shadow.png", "is_speaking": true }
+    ],
     "sound": "school.mp3",
     "name": "???",
     "has_choice": false,
@@ -117,10 +119,10 @@
     "id": 9,
     "bg": "images/background/classroom.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "school.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Euh, salut. Je viens pour l'inscription.", "id_suivant": 10 }
@@ -131,7 +133,9 @@
   {
     "id": 10,
     "bg": "images/background/classroom.png",
-    "sprite": [],
+    "sprite": [
+        { "name": "images/characters/libreoffice-shadow.png", "is_speaking": true }
+    ],
     "sound": "school.mp3",
     "name": "???",
     "has_choice": false,
@@ -176,8 +180,10 @@
   {
     "id": 13,
     "bg": "images/background/classroom.png",
-    "sprite": [],
-    "sound": "crash.mp3",
+    "sprite": [
+        { "name": "images/characters/vlc-shadow.png", "is_speaking": true }
+    ],
+    "sound": "school.mp3",
     "name": "???",
     "has_choice": false,
     "choices": [
@@ -211,10 +217,10 @@
     "id": 15,
     "bg": "images/background/classroom.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-sad.png", "is_speaking": true }
     ],
     "sound": "school.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Elle a l'air robuste... mais un peu spéciale.", "id_suivant": 16 }
@@ -240,7 +246,9 @@
   {
     "id": 17,
     "bg": "images/background/classroom.png",
-    "sprite": [],
+    "sprite": [
+        { "name": "images/characters/audacity-shadow.png", "is_speaking": true }
+    ],
     "sound": "techno.mp3",
     "name": "???",
     "has_choice": false,
@@ -272,10 +280,10 @@
     "id": 19,
     "bg": "images/background/classroom.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-sad.png", "is_speaking": true }
     ],
     "sound": "school.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "C'est... très énergique.", "id_suivant": 20 }
@@ -286,7 +294,9 @@
   {
     "id": 20,
     "bg": "images/background/classroom.png",
-    "sprite": [],
+    "sprite": [
+        { "name": "images/characters/debian-shadow.png", "is_speaking": true }
+    ],
     "sound": "school.mp3",
     "name": "???",
     "has_choice": false,
@@ -332,7 +342,9 @@
   {
     "id": 23,
     "bg": "images/background/classroom.png",
-    "sprite": [],
+    "sprite": [
+         { "name": "images/characters/ffmpeg-shadow.png", "is_speaking": true }
+    ],
     "sound": "school.mp3",
     "name": "???",
     "has_choice": false,
@@ -346,10 +358,10 @@
     "id": 24,
     "bg": "images/background/classroom.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "school.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Pardon ?", "id_suivant": 25 }
@@ -378,7 +390,9 @@
   {
     "id": 26,
     "bg": "images/background/classroom.png",
-    "sprite": [],
+    "sprite": [
+        { "name": "images/characters/obs-shadow.png", "is_speaking": true }
+    ],
     "sound": "school.mp3",
     "name": "???",
     "has_choice": false,
@@ -407,10 +421,10 @@
     "id": 28,
     "bg": "images/background/classroom.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-sad.png", "is_speaking": true }
     ],
     "sound": "school.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       {
@@ -440,10 +454,10 @@
     "id": 30,
     "bg": "images/background/classroom.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-sad.png", "is_speaking": true }
     ],
     "sound": "school.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       {
@@ -487,10 +501,10 @@
     "id": 1002,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "C'est le moins qu'on puisse dire. Je ne m'attendais pas à une telle ambiance.", "id_suivant": 1003 }
@@ -601,10 +615,10 @@
     "id": 1041,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Euh... C'est quoi tout ça ?", "id_suivant": 1042 }
@@ -629,10 +643,10 @@
     "id": 1043,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": true,
     "choices": [
       { "text": "Tu ne devrais pas fermer quelques trucs ? Tu as l'air de ramer.", "id_suivant": 1050 },
@@ -700,10 +714,10 @@
     "id": 1081,
     "bg": "images/background/club_corner.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "rock_indie.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Sacré numéro. Mais il a l'air fiable.", "id_suivant": 2001 }
@@ -714,10 +728,10 @@
     "id": 2001,
     "bg": "images/background/club-media.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": false }
+      { "name": "images/characters/player-neutral.png", "is_speaking": false }
     ],
     "sound": "music/circus-8bit.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       {
@@ -749,10 +763,10 @@
     "id": 2003,
     "bg": "images/background/club-media.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/circus-8bit.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       {
@@ -900,10 +914,10 @@
     "id": 2012,
     "bg": "images/background/club-media.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/circus-8bit.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "On ne voit que des carrés gris...", "id_suivant": 2013 }
@@ -914,7 +928,9 @@
   {
     "id": 2013,
     "bg": "images/background/club-media.png",
-    "sprite": [],
+    "sprite": [
+         { "name": "images/characters/player-neutral.png", "is_speaking": false }
+    ],
     "sound": "music/circus-8bit.mp3",
     "name": "",
     "has_choice": true,
@@ -983,7 +999,7 @@
       { "name": "images/characters/vlc-sad.png", "is_speaking": false }
     ],
     "sound": "music/circus-8bit.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       {
@@ -1016,10 +1032,10 @@
     "id": 2019,
     "bg": "images/background/club-media.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/circus-8bit.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       {
@@ -1034,10 +1050,10 @@
     "id": 2020,
     "bg": "images/background/club-media.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/circus-8bit.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       {
@@ -1079,10 +1095,10 @@
     "id": 3003,
     "bg": "images/background/club-office.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/classic_elevator.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Euh, non, pas encore.", "id_suivant": 3004 }
@@ -1237,10 +1253,10 @@
     "id": 3081,
     "bg": "images/background/club-office.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/classic_elevator.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "C'est ça qui compte, LibreOffice. Tu es fiable.", "id_suivant": 3082 }
@@ -1293,10 +1309,10 @@
     "id": 4003,
     "bg": "images/background/obs-studio.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/stream_safe_lofi.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Euh... Salut ? Je ne savais pas que j'allais passer à la télé.", "id_suivant": 4004 }
@@ -1407,10 +1423,10 @@
     "id": 4042,
     "bg": "images/background/obs-studio.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/stream_safe_lofi.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Euh, OBS ? Je me sens bizarre.", "id_suivant": 4043 }
@@ -1507,10 +1523,10 @@
     "id": 4090,
     "bg": "images/background/obs-studio.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/stream_safe_lofi.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "C'était... intense. J'ai encore des taches lumineuses devant les yeux.", "id_suivant": 5001 }
@@ -1535,10 +1551,10 @@
     "id": 5002,
     "bg": "images/background/sound_room.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/drum_bass.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "SALUT ! C'EST MOI, LE NOUVEAU !", "id_suivant": 5003 }
@@ -1563,10 +1579,10 @@
     "id": 5004,
     "bg": "images/background/sound_room.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/drum_bass.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Merci... je crois ?", "id_suivant": 5005 }
@@ -1607,10 +1623,10 @@
     "id": 5011,
     "bg": "images/background/sound_room.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/drum_bass.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Raisonnable.", "id_suivant": 5030 }
@@ -1721,10 +1737,10 @@
     "id": 5060,
     "bg": "images/background/sound_room.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/drum_bass.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Elle vit vraiment dans sa propre fréquence.", "id_suivant": 6000 }
@@ -1749,10 +1765,10 @@
     "id": 5002,
     "bg": "images/background/sound_room.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/drum_bass.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "SALUT ! C'EST MOI, LE NOUVEAU !", "id_suivant": 5003 }
@@ -1777,10 +1793,10 @@
     "id": 5004,
     "bg": "images/background/sound_room.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/drum_bass.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Merci... je crois ?", "id_suivant": 5005 }
@@ -1821,10 +1837,10 @@
     "id": 5011,
     "bg": "images/background/sound_room.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/drum_bass.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Raisonnable.", "id_suivant": 5030 }
@@ -1935,10 +1951,10 @@
     "id": 5060,
     "bg": "images/background/sound_room.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/drum_bass.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Elle vit vraiment dans sa propre fréquence.", "id_suivant": 6000 }
@@ -2079,10 +2095,10 @@
     "id": 6030,
     "bg": "images/background/school_corridor.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/ambient_minimal.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Elle est bizarre, mais elle a un cœur en or massif... ou en silicium pur.", "id_suivant": 7001 }
@@ -2093,10 +2109,10 @@
     "id": 7001,
     "bg": "images/background/library.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/piano_slow.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Eh bien... quelle matinée. Entre le volume à 200% d'Audacity et le stress du processeur de FFmpeg, j'ai les oreilles qui bourdonnent. J'ai besoin de calme. De stabilité.", "id_suivant": 5002 }
@@ -2121,10 +2137,10 @@
     "id": 7003,
     "bg": "images/background/library.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/piano_slow.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Désolé... Je cherchais juste un endroit calme.", "id_suivant": 5004 }
@@ -2149,10 +2165,10 @@
     "id": 7005,
     "bg": "images/background/library.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/piano_slow.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Promis. Je suis juste un utilisateur standard.", "id_suivant": 5006 }
@@ -2207,7 +2223,7 @@
     "bg": "images/background/library.png",
     "sprite": [
       { "name": "images/characters/debian-happy.png", "is_speaking": true },
-      { "name": "images/characters/player.png", "is_speaking": false }
+      { "name": "images/characters/player-neutral.png", "is_speaking": false }
     ],
     "sound": "music/piano_slow.mp3",
     "name": "debian",
@@ -2221,10 +2237,10 @@
     "id": 7010,
     "bg": "images/background/library.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/piano_slow.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "C'est reposant, en fait. On se sent en sécurité.", "id_suivant": 5011 }
@@ -2263,10 +2279,10 @@
     "id": 7101,
     "bg": "images/background/library.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/piano_slow.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Faire ce que je veux ?", "id_suivant": 5102 }
@@ -2291,10 +2307,10 @@
     "id": 7103,
     "bg": "images/background/library.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/piano_slow.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Tu te sens seule, parfois ?", "id_suivant": 5104 }
@@ -2320,7 +2336,7 @@
     "bg": "images/background/library.png",
     "sprite": [
       { "name": "images/characters/debian-happy.png", "is_speaking": true },
-      { "name": "images/characters/player.png", "is_speaking": false }
+      { "name": "images/characters/player-neutral.png", "is_speaking": false }
     ],
     "sound": "music/piano_slow.mp3",
     "name": "debian",
@@ -2334,10 +2350,10 @@
     "id": 7013,
     "bg": "images/background/library.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/piano_slow.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
       { "text": "Merci, Debian. Je la garderai en sécurité.", "id_suivant": 5014 }
@@ -2362,14 +2378,1006 @@
     "id": 7015,
     "bg": "images/background/library.png",
     "sprite": [
-      { "name": "images/characters/player.png", "is_speaking": true }
+      { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
     "sound": "music/piano_slow.mp3",
-    "name": "player",
+    "name": "protagoniste",
     "has_choice": false,
     "choices": [
-      { "text": "Stable, sécurisée, et éternelle. Je commence à comprendre pourquoi tout le monde respecte ce club.", "id_suivant": 9999 }
+      { "text": "Stable, sécurisée, et éternelle. Je commence à comprendre pourquoi tout le monde respecte ce club.", "id_suivant": 9001 }
     ],
     "color": "#000000"
-  }
+  },
+  {
+		"id": 9001,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "WOUF ! WOUF !",
+				"id_suivant": 9002
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9002,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Salut Bruno ! Salut mon beau ! Toi au moins, tu es simple. Pas de problèmes de compatibilité, pas de crise existentielle sur les licences...",
+				"id_suivant": 9003
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9003,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Juste 'Manger', 'Dormir', 'Jouer'. Le système d'exploitation parfait. Tu ne vas pas me croire, Bruno. J'ai rencontré des gens... incroyables aujourd'hui.",
+				"id_suivant": 9004
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9004,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est le 'Club du Libre'. Ils sont tous un peu cassés, un peu bizarres, mais ils ont une passion dévorante.",
+				"id_suivant": 9005
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9005,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Whouf ?",
+				"id_suivant": 9006
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9006,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": true,
+		"choices": [
+			{
+				"text": "C'est Firefox. Il est tellement charismatique.",
+				"id_suivant": 9100
+			},
+			{
+				"text": "C'est LibreOffice. Il est coincé, mais ça le rend intéressant.",
+				"id_suivant": 9200
+			},
+			{
+				"text": "C'est VLC. Elle est complètement folle, j'adore.",
+				"id_suivant": 9300
+			},
+			{
+				"text": "C'est Audacity. Son énergie me donne la pêche.",
+				"id_suivant": 9400
+			},
+			{
+				"text": "C'est OBS. Elle brille de mille feux.",
+				"id_suivant": 9500
+			},
+			{
+				"text": "C'est FFmpeg. Elle est si mystérieuse et intelligente.",
+				"id_suivant": 9600
+			},
+			{
+				"text": "C'est Debian. Elle est si mignonne et rassurante.",
+				"id_suivant": 9700
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9100,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est Firefox. Il a ce truc... cette facilité à parler aux gens. Il est drôle, rapide, et franchement, il a du style avec sa veste orange. J'ai l'impression qu'il pourrait me montrer un monde plus vaste.",
+				"id_suivant": 9101
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9101,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wouf.",
+				"id_suivant": 9102
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9102,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "T'as raison. Faut juste que je fasse gaffe à pas me perdre dans ses onglets.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9200,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Je n'arrive pas à arrêter de penser à LibreOffice. Je sais, il est rigide, obsédé par les règles... mais je sens qu'il y a un cœur qui bat sous cette chemise repassée.",
+				"id_suivant": 9201
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9201,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Groumpf.",
+				"id_suivant": 9202
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9202,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Ouais, ça va être du boulot. Mais je suis prêt à remplir le formulaire A-38 pour lui.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9300,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est VLC. Sans hésiter. Elle est imprévisible. Avec elle, je ne sais jamais si je vais regarder un film ou si le monde va exploser en pixels verts.",
+				"id_suivant": 9301
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9301,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wouf ! Wouf !",
+				"id_suivant": 9302
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9302,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Exactement. C'est le tourbillon total.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9400,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est Audacity. Elle a un rythme de vie incroyable. J'ai l'impression que tout est amplifié quand je suis avec elle.",
+				"id_suivant": 9401
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9401,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wou-Wouf !",
+				"id_suivant": 9402
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9402,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Haha, même toi tu sens le beat !",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9500,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est OBS. Elle est hypnotisante. Elle vit sa vie comme un spectacle permanent, mais j'ai vu des moments où elle gère tout d'une main de maître.",
+				"id_suivant": 9501
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9501,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Whouf ?",
+				"id_suivant": 9502
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9502,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Oui, tu pourras être la mascotte du stream.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9600,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est FFmpeg. Elle est terrifiée par le monde réel, mais dès qu'on parle code, elle devient une déesse. J'ai envie de l'aider à traduire ses pensées.",
+				"id_suivant": 9601
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9601,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Hmmmm.",
+				"id_suivant": 9602
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9602,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est fragile, hein ? Je ferai attention. Promis.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9700,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est Debian. Elle est toute petite, mais elle porte le poids du monde. Sa recherche de stabilité, de perfection... c'est touchant.",
+				"id_suivant": 9701
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9701,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wouf.",
+				"id_suivant": 9702
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9702,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "On sera ses gardiens, Bruno. Toi et moi.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9800,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "En tout cas, je crois que je vais y retourner demain. Ils ont parlé d'un 'Grand Projet' pour le festival du lycée.",
+				"id_suivant": 9801
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9801,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Je ne sais pas ce que c'est, mais si je veux me rapprocher de cette personne... c'est ma chance.",
+				"id_suivant": 9802
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9802,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wouf.",
+				"id_suivant": 9803
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9803,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Allez, viens. On va te donner tes croquettes. L'amour c'est bien beau, mais ça ne remplit pas la gamelle.",
+				"id_suivant": 10001
+			}
+		],
+		"color": "#000000"
+	}, 
+    {
+		"id": 10001,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [],
+		"name": "",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "La nouvelle de la défaite de Windows s'est répandue comme une traînée de poudre. Libéré du joug des mises à jour forcées, le lycée entier a afflué vers le stand du Club du Libre.",
+				"id_suivant": 10002
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10002,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Bienvenue ! Installez-vous ! Vous voulez un navigateur qui ne vous espionne pas ? C'est par ici !",
+				"id_suivant": 10003
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10003,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Et pour vous mesdemoiselles, j'ai installé l'extension 'Thème K-Pop' en avant-première ! C'est cadeau !",
+				"id_suivant": 10004
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10004,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/libreoffice-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "COUP DE SIFFLET ! Match 4, table 2 ! Le règlement stipule clairement : pas de triche sur les raccourcis clavier !",
+				"id_suivant": 10005
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10005,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/libreoffice-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Voici tes scores exportés en PDF avec graphique d'évolution de performance. Suivant !",
+				"id_suivant": 10006
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10006,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/vlc-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Un fichier .mkv encodé en 2004 ?",
+				"id_suivant": 10007
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10007,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/vlc-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "FACILE ! Suivant ! C'est quoi ça ? Une cassette VHS ? Donnez-moi un trombone et du scotch, je vous lis ça en 1080p !",
+				"id_suivant": 10008
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10008,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/audacity-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "audacity",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "ON MONTE LE VOLUME ! J'ai supprimé les bruits de toux dans la salle en temps réel ! Le son est pur ! Dansez, mes petits paquets de données, dansez !",
+				"id_suivant": 10009
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10009,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/ffmpeg-neutral.png",
+				"is_speaking": true
+			},
+			{
+				"name": "images/characters/debian-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "ffmpeg",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Conversion du flux vidéo pour OBS... Charge CPU : 98%...",
+				"id_suivant": 10010
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10010,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/ffmpeg-neutral.png",
+				"is_speaking": false
+			},
+			{
+				"name": "images/characters/debian-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "debian",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Je redirige la charge sur les cœurs de secours. Le système est stable. Nous n'avons pas eu un seul crash depuis 6 heures. C'est... c'est magnifique.",
+				"id_suivant": 10011
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10011,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/obs-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "obs",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "On est à 5000 viewers ! Le lycée est en Top Tendance ! Regardez cette ambiance ! Et voici notre MVP, le nouveau membre qui a tout rendu possible ! Dis coucou au chat !",
+				"id_suivant": 10012
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10012,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/player-happy.png",
+				"is_speaking": true
+			},
+			{
+				"name": "images/characters/obs-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Pas le temps ! Il faut que je reboote le switch réseau !",
+				"id_suivant": 10013
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10013,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [],
+		"name": "",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Le temps passe. La lumière extérieure change, passant du plein soleil à la lumière dorée de fin d'après-midi. La foule commence à se disperser.",
+				"id_suivant": 10014
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10014,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wow. Juste... wow.",
+				"id_suivant": 10015
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10015,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-happy.png",
+				"is_speaking": false
+			},
+			{
+				"name": "images/characters/libreoffice-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "J'ai distribué 450 formulaires d'adhésion. C'est un record historique.",
+				"id_suivant": 10016
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10016,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/libreoffice-happy.png",
+				"is_speaking": false
+			},
+			{
+				"name": "images/characters/vlc-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "J'ai mal à mes codecs... mais c'était trop bien !",
+				"id_suivant": 10017
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10017,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+      		  "name": "images/characters/player-happy.png",
+      		  "is_speaking": true
+      		},
+			{
+				"name": "images/characters/vlc-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Le festival ferme ses portes. On a réussi. Windows a eu tort de nous sous-estimer !",
+				"id_suivant": 10018
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10018,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-neutral.png",
+				"is_speaking": true
+			},
+			{
+				"name": "images/characters/player-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Bien dit !",
+				"id_suivant": 10019
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10019,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/player-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Fiou, j'ai bien besoin de prendre l'air moi...",
+				"id_suivant": 11000
+			}
+		],
+		"color": "#000000"
+	}
 ]
