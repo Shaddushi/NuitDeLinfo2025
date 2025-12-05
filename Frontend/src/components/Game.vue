@@ -139,7 +139,7 @@ export default {
 
     mounted(){
         this.loadData();
-        if (!!localStorage.getItem("token")) {
+        if (localStorage.getItem("token") === null) {
             window.location.replace("/login");
         }
     }
