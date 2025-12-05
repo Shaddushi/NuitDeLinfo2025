@@ -1,5 +1,9 @@
 <script setup>
 import StudentsCards from './StudentsCards.vue';
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
 
 </script>
 
@@ -9,13 +13,15 @@ import StudentsCards from './StudentsCards.vue';
           Linus University
       </div>
       <div class="accueil_phrase">
-                <h1>
-          Nos Personnages
-        </h1>
-        
-        <div> 
+          <div class="d-flex justify-content-between align-items-center">
+              <h1>
+                  Nos Personnages
+              </h1>
+              <button class="btn btn-primary px-4" @click="router.push('/game')">Jouer au jeu</button>
+          </div>
+
+        <div class="mb-3">
           Bienvenue a Linus University, un endroit fantastique ou toute personne est libre de devenir qui elle souhaite devenir !
-          <br/>
           Voici quelques têtes que vous risquez de rencontrer ici :
         </div>
 
@@ -50,12 +56,10 @@ import StudentsCards from './StudentsCards.vue';
 
     .accueil_phrase h1{
       color: var(--bs-primary);
-      text-align: center;
     }
 
     .accueil_phrase div{
       font-weight: 500;
-      text-align: center;
     }
 
     .Main{

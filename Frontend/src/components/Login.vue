@@ -124,7 +124,7 @@
     }
     
     .loginNoProfile {
-        color: #b9b4b4;
+        color: #716f6f;
         background: none;
         border: none;
     }
