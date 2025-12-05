@@ -1,0 +1,609 @@
+[
+  {
+    "id": 9900,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "name": "narrateur",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Le lendemain matin. Le Protagoniste arrive devant la porte du club. Elle est entrouverte. Des bruits de dispute s'échappent.",
+        "id_suivant": 9901
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9901,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "name": "inconnu",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Allez, signez ! C'est juste un petit abonnement mensuel ! Vous aurez accès au Solitaire en HD !",
+        "id_suivant": 9902
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9902,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
+    ],
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "C'est hors de question ! Nous refusons vos standards fermés ! Lâchez ce clavier !",
+        "id_suivant": 9903
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9903,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-angry.png", "is_speaking": false }
+    ],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Qu'est-ce qui se passe ici ?!",
+        "id_suivant": 9904
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9904,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-happy.png", "is_speaking": true },
+      { "name": "images/characters/debian-sad.png", "is_speaking": false }
+    ],
+    "name": "windows",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Tiens, un invité ? Désolé, la session est verrouillée. Je suis en train de faire une mise à jour forcée de ces antiquités.",
+        "id_suivant": 9905
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9905,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-happy.png", "is_speaking": false },
+      { "name": "images/characters/debian-sad.png", "is_speaking": false }
+    ],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Lâche-les tout de suite !",
+        "id_suivant": 9906
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9906,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-happy.png", "is_speaking": true }
+    ],
+    "name": "windows",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Oh ? Et tu es qui toi ? 'Admin' ? Laisse-moi rire. Tu n'as même pas les droits d'écriture sur ce dossier.",
+        "id_suivant": 9907
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9907,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-happy.png", "is_speaking": true }
+    ],
+    "name": "windows",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Ces hippies du logiciel libre sont obsolètes. Rejoins-moi. Avec moi, tu n'as pas besoin de réfléchir. Je décide pour toi.",
+        "id_suivant": 9908
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9908,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-happy.png", "is_speaking": false }
+    ],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Jamais. Je préfère la liberté à ta cage dorée !",
+        "id_suivant": 9909
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9909,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-angry.png", "is_speaking": true }
+    ],
+    "name": "windows",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Mauvaise réponse. ATTACK : FORCE REBOOT !",
+        "id_suivant": 9910
+      }
+    ],
+    "color": "#000000"
+  },
+  
+  
+  {
+    "id": 9910,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "name": "system",
+    "has_choice": true,
+    "waifu_choice": [
+      { "id": 1, "id_suivant": 9911 },
+      { "id": 2, "id_suivant": 9913 },
+      { "id": 3, "id_suivant": 9912 },
+      { "id": 4, "id_suivant": 9915 },
+      { "id": 5, "id_suivant": 9914 },
+      { "id": 6, "id_suivant": 9916 },
+      { "id": 7, "id_suivant": 9917 }
+    ],
+    "color": "#000000"
+  },
+
+
+  {
+    "id": 9911,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/firefox-happy.png", "is_speaking": true }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [{ "text": "Navigation privée, mec ! Tu ne peux pas toucher ce que tu ne peux pas traquer !", "id_suivant": 9920 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9912,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/libreoffice-angry.png", "is_speaking": true }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [{ "text": "Objection ! Cette agression viole l'article 4 de la convention d'interopérabilité !", "id_suivant": 9921 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9913,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/vlc-happy.png", "is_speaking": true }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "vlc",
+    "has_choice": false,
+    "choices": [{ "text": "Miam ! Ça a le goût de pixels morts ! Encore !", "id_suivant": 9922 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9914,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/audacity-angry.png", "is_speaking": true }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [{ "text": "SILENCE ! Ton bruit de fond est insupportable ! Je te coupe au mixage !", "id_suivant": 9923 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9915,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/obs-happy.png", "is_speaking": true }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "obs",
+    "has_choice": false,
+    "choices": [{ "text": "Souriez ! Vous êtes en direct devant 10 000 personnes ! 'Clip it, chat !'", "id_suivant": 9924 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9916,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [{ "text": "-i attack.exe -vn -an -f null /dev/null... Conversion vers le néant terminée.", "id_suivant": 9925 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9917,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/debian-angry.png", "is_speaking": true }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "debian",
+    "has_choice": false,
+    "choices": [{ "text": "Ton système est instable. Tu as des failles de sécurité partout. Tu ne passeras pas.", "id_suivant": 9926 }],
+    "color": "#000000"
+  },
+
+
+  {
+    "id": 9920,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/firefox-happy.png", "is_speaking": false }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [{ "text": "Lui au moins, il est rapide ! Il s'adapte ! C'est ça la vraie performance !", "id_suivant": 9930 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9921,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/libreoffice-angry.png", "is_speaking": false }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [{ "text": "Faux ! Il est le pilier du monde ! Il est universel, gratuit et fiable ! C'est ça la vraie intégrité !", "id_suivant": 9930 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9922,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/vlc-happy.png", "is_speaking": false }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [{ "text": "Elle lit tout ! Rien ne l'arrête ! Elle est le chaos qui brise tes chaînes ! C'est ça la vraie polyvalence !", "id_suivant": 9930 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9923,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/audacity-angry.png", "is_speaking": false }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [{ "text": "Elle est brute, elle est puissante ! Avec elle, on a le contrôle total du signal ! C'est ça la vraie puissance !", "id_suivant": 9930 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9924,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/obs-happy.png", "is_speaking": false }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [{ "text": "Elle montre la vérité ! Elle partage, elle diffuse, elle connecte ! C'est ça la vraie transparence !", "id_suivant": 9930 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9925,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/ffmpeg-neutral.png", "is_speaking": false }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [{ "text": "C'est le langage de la maîtrise ! Elle comprend la machine mieux que tu ne le feras jamais ! C'est ça la vraie intelligence !", "id_suivant": 9930 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9926,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/debian-angry.png", "is_speaking": false }, { "name": "images/characters/windows-angry.png", "is_speaking": false }],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [{ "text": "Tu es le chaos buggé ! Elle est le roc ! Elle ne plante jamais ! C'est ça la vraie confiance !", "id_suivant": 9930 }],
+    "color": "#000000"
+  },
+
+
+  {
+    "id": 9930,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-sad.png", "is_speaking": true }
+    ],
+    "name": "windows",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Vous... Vous n'êtes qu'une bande de marginaux ! Sans moi, les gens sont perdus ! Ils ont besoin qu'on leur tienne la main !",
+        "id_suivant": 9931
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9931,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true },
+      { "name": "images/characters/windows-sad.png", "is_speaking": false }
+    ],
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Ton navigateur sert juste à me télécharger, Win.",
+        "id_suivant": 9932
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9932,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/vlc-happy.png", "is_speaking": true },
+      { "name": "images/characters/windows-sad.png", "is_speaking": false }
+    ],
+    "name": "vlc",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Tes mises à jour durent 3 heures. Moi, je m'installe en 3 secondes.",
+        "id_suivant": 9933
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9933,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true },
+      { "name": "images/characters/windows-sad.png", "is_speaking": false }
+    ],
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Tu changes tes menus tous les deux ans pour faire croire que tu innoves. Nous, on reste efficaces.",
+        "id_suivant": 9934
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9934,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/obs-angry.png", "is_speaking": true },
+      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
+    ],
+    "name": "obs & audacity",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Tu espionnes tes utilisateurs. Nous, on les respecte.",
+        "id_suivant": 9935
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9935,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true },
+      { "name": "images/characters/debian-neutral.png", "is_speaking": true }
+    ],
+    "name": "ffmpeg & debian",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Ton écran bleu est légendaire. Notre 'Uptime' est éternel.",
+        "id_suivant": 9936
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9936,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-sad.png", "is_speaking": true }
+    ],
+    "name": "windows",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "J... Je vais appeler mon avocat ! Je vais vous racheter ! Je vais... Je vais...",
+        "id_suivant": 9937
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9937,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-sad.png", "is_speaking": false }
+    ],
+    "name": "protagoniste",
+    "has_choice": true,
+    "choices": [
+      { "text": "Tu es un produit. Nous sommes une communauté. Tu ne peux pas acheter ça. (Logique)", "id_suivant": 9940 },
+      { "text": "Allez, Alt+F4. Tu prends trop de RAM pour rien. (Aggressif)", "id_suivant": 9940 },
+      { "text": "Sudo rm -rf /windows. Disparais. (Technique)", "id_suivant": 9940 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9940,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/windows-sad.png", "is_speaking": true }
+    ],
+    "name": "windows",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "NON ! ERREUR FATALE ! 0x000000 ! (Bzzzzzzzt)",
+        "id_suivant": 9941
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9941,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/firefox-happy.png", "is_speaking": true },
+      { "name": "images/characters/windows-sad.png", "is_speaking": false }
+    ],
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Wouah. Il a crashé. Pour de vrai.",
+        "id_suivant": 9942
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9942,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/vlc-happy.png", "is_speaking": true },
+      { "name": "images/characters/windows-sad.png", "is_speaking": false }
+    ],
+    "name": "vlc",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "On le met à la corbeille ?",
+        "id_suivant": 9943
+      }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 9943,
+    "bg": "images/background/classroom.png",
+    "sprite": [
+      { "name": "images/characters/debian-neutral.png", "is_speaking": true },
+      { "name": "images/characters/windows-sad.png", "is_speaking": false }
+    ],
+    "name": "debian",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Non. On le laisse là. Le redémarrage automatique va prendre des heures de toute façon.",
+        "id_suivant": 9944
+      }
+    ],
+    "color": "#000000"
+  },
+  
+  
+  {
+    "id": 9944,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "name": "system",
+    "has_choice": true,
+    "choices": [
+      { "text": "[Réaction Firefox]", "id_suivant": 9950 },
+      { "text": "[Réaction LibreOffice]", "id_suivant": 9951 },
+      { "text": "[Réaction VLC]", "id_suivant": 9952 },
+      { "text": "[Réaction Audacity]", "id_suivant": 9953 },
+      { "text": "[Réaction OBS]", "id_suivant": 9954 },
+      { "text": "[Réaction FFmpeg]", "id_suivant": 9955 },
+      { "text": "[Réaction Debian]", "id_suivant": 9956 }
+    ],
+    "color": "#000000"
+  },
+  
+  {
+    "id": 9950,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/firefox-happy.png", "is_speaking": true }],
+    "name": "firefox",
+    "has_choice": false,
+    "choices": [{ "text": "Merci... Tu nous as bien défendus. On ne pensait pas que tu avais ça en toi.", "id_suivant": 9960 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9951,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/libreoffice-happy.png", "is_speaking": true }],
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [{ "text": "Merci... Tu nous as bien défendus. On ne pensait pas que tu avais ça en toi.", "id_suivant": 9960 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9952,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/vlc-happy.png", "is_speaking": true }],
+    "name": "vlc",
+    "has_choice": false,
+    "choices": [{ "text": "Merci... Tu nous as bien défendus. On ne pensait pas que tu avais ça en toi.", "id_suivant": 9960 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9953,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/audacity-happy.png", "is_speaking": true }],
+    "name": "audacity",
+    "has_choice": false,
+    "choices": [{ "text": "Merci... Tu nous as bien défendus. On ne pensait pas que tu avais ça en toi.", "id_suivant": 9960 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9954,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/obs-happy.png", "is_speaking": true }],
+    "name": "obs",
+    "has_choice": false,
+    "choices": [{ "text": "Merci... Tu nous as bien défendus. On ne pensait pas que tu avais ça en toi.", "id_suivant": 9960 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9955,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/ffmpeg-happy.png", "is_speaking": true }],
+    "name": "ffmpeg",
+    "has_choice": false,
+    "choices": [{ "text": "Merci... Tu nous as bien défendus. On ne pensait pas que tu avais ça en toi.", "id_suivant": 9960 }],
+    "color": "#000000"
+  },
+  {
+    "id": 9956,
+    "bg": "images/background/classroom.png",
+    "sprite": [{ "name": "images/characters/debian-happy.png", "is_speaking": true }],
+    "name": "debian",
+    "has_choice": false,
+    "choices": [{ "text": "Merci... Tu nous as bien défendus. On ne pensait pas que tu avais ça en toi.", "id_suivant": 9960 }],
+    "color": "#000000"
+  },
+  
+  
+  {
+    "id": 9960,
+    "bg": "images/background/classroom.png",
+    "sprite": [],
+    "name": "protagoniste",
+    "has_choice": false,
+    "choices": [
+      {
+        "text": "Je ne laisserai personne toucher à mon club. Je crois que je viens officiellement de faire partie de la bande.",
+        "id_suivant": 10001
+      }
+    ],
+    "color": "#000000"
+  }
+]

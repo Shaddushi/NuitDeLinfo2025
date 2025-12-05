@@ -1,0 +1,616 @@
+[
+	{
+		"id": 9001,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "WOUF ! WOUF !",
+				"id_suivant": 9002
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9002,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Salut Bruno ! Salut mon beau ! Toi au moins, tu es simple. Pas de problèmes de compatibilité, pas de crise existentielle sur les licences...",
+				"id_suivant": 9003
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9003,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Juste 'Manger', 'Dormir', 'Jouer'. Le système d'exploitation parfait. Tu ne vas pas me croire, Bruno. J'ai rencontré des gens... incroyables aujourd'hui.",
+				"id_suivant": 9004
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9004,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est le 'Club du Libre'. Ils sont tous un peu cassés, un peu bizarres, mais ils ont une passion dévorante.",
+				"id_suivant": 9005
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9005,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Whouf ?",
+				"id_suivant": 9006
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9006,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": true,
+		"custom_field": "dcfvjghbkjnk,l",
+		"choices": [
+			{
+				"text": "C'est Firefox. Il est tellement charismatique.",
+				"id_suivant": 9100
+			},
+			{
+				"text": "C'est LibreOffice. Il est coincé, mais ça le rend intéressant.",
+				"id_suivant": 9200
+			},
+			{
+				"text": "C'est VLC. Elle est complètement folle, j'adore.",
+				"id_suivant": 9300
+			},
+			{
+				"text": "C'est Audacity. Son énergie me donne la pêche.",
+				"id_suivant": 9400
+			},
+			{
+				"text": "C'est OBS. Elle brille de mille feux.",
+				"id_suivant": 9500
+			},
+			{
+				"text": "C'est FFmpeg. Elle est si mystérieuse et intelligente.",
+				"id_suivant": 9600
+			},
+			{
+				"text": "C'est Debian. Elle est si mignonne et rassurante.",
+				"id_suivant": 9700
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9100,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est Firefox. Il a ce truc... cette facilité à parler aux gens. Il est drôle, rapide, et franchement, il a du style avec sa veste orange. J'ai l'impression qu'il pourrait me montrer un monde plus vaste.",
+				"id_suivant": 9101
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9101,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wouf.",
+				"id_suivant": 9102
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9102,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "T'as raison. Faut juste que je fasse gaffe à pas me perdre dans ses onglets.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9200,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Je n'arrive pas à arrêter de penser à LibreOffice. Je sais, il est rigide, obsédé par les règles... mais je sens qu'il y a un cœur qui bat sous cette chemise repassée.",
+				"id_suivant": 9201
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9201,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Groumpf.",
+				"id_suivant": 9202
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9202,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Ouais, ça va être du boulot. Mais je suis prêt à remplir le formulaire A-38 pour lui.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9300,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est VLC. Sans hésiter. Elle est imprévisible. Avec elle, je ne sais jamais si je vais regarder un film ou si le monde va exploser en pixels verts.",
+				"id_suivant": 9301
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9301,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wouf ! Wouf !",
+				"id_suivant": 9302
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9302,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Exactement. C'est le tourbillon total.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9400,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est Audacity. Elle a un rythme de vie incroyable. J'ai l'impression que tout est amplifié quand je suis avec elle.",
+				"id_suivant": 9401
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9401,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wou-Wouf !",
+				"id_suivant": 9402
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9402,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Haha, même toi tu sens le beat !",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9500,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est OBS. Elle est hypnotisante. Elle vit sa vie comme un spectacle permanent, mais j'ai vu des moments où elle gère tout d'une main de maître.",
+				"id_suivant": 9501
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9501,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Whouf ?",
+				"id_suivant": 9502
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9502,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Oui, tu pourras être la mascotte du stream.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9600,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est FFmpeg. Elle est terrifiée par le monde réel, mais dès qu'on parle code, elle devient une déesse. J'ai envie de l'aider à traduire ses pensées.",
+				"id_suivant": 9601
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9601,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Hmmmm.",
+				"id_suivant": 9602
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9602,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est fragile, hein ? Je ferai attention. Promis.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9700,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "C'est Debian. Elle est toute petite, mais elle porte le poids du monde. Sa recherche de stabilité, de perfection... c'est touchant.",
+				"id_suivant": 9701
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9701,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wouf.",
+				"id_suivant": 9702
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9702,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "On sera ses gardiens, Bruno. Toi et moi.",
+				"id_suivant": 9800
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9800,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "En tout cas, je crois que je vais y retourner demain. Ils ont parlé d'un 'Grand Projet' pour le festival du lycée.",
+				"id_suivant": 9801
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9801,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Je ne sais pas ce que c'est, mais si je veux me rapprocher de cette personne... c'est ma chance.",
+				"id_suivant": 9802
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9802,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "bruno",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wouf.",
+				"id_suivant": 9803
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 9803,
+		"bg": "images/background/salon.png",
+		"sprite": [
+			{
+				"name": "images/characters/bruno-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Allez, viens. On va te donner tes croquettes. L'amour c'est bien beau, mais ça ne remplit pas la gamelle.",
+				"id_suivant": 10001
+			}
+		],
+		"color": "#000000"
+	}
+]

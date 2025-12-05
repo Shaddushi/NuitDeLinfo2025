@@ -482,7 +482,7 @@
   },
   {
     "id": 1001,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-neutral.png", "is_speaking": true }
     ],
@@ -499,7 +499,7 @@
   },
   {
     "id": 1002,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -513,7 +513,7 @@
   },
   {
     "id": 1003,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
@@ -527,7 +527,7 @@
   },
   {
     "id": 1004,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
@@ -541,7 +541,7 @@
   },
   {
     "id": 1005,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-neutral.png", "is_speaking": true }
     ],
@@ -557,7 +557,7 @@
   },
   {
     "id": 1010,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
@@ -571,7 +571,7 @@
   },
   {
     "id": 1020,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-neutral.png", "is_speaking": true }
     ],
@@ -585,7 +585,7 @@
   },
   {
     "id": 1030,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-sad.png", "is_speaking": true }
     ],
@@ -599,7 +599,7 @@
   },
   {
     "id": 1040,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
@@ -613,7 +613,7 @@
   },
   {
     "id": 1041,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -627,7 +627,7 @@
   },
   {
     "id": 1042,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
@@ -641,7 +641,7 @@
   },
   {
     "id": 1043,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -656,7 +656,7 @@
   },
   {
     "id": 1050,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-angry.png", "is_speaking": true }
     ],
@@ -670,7 +670,7 @@
   },
   {
     "id": 1060,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
@@ -684,7 +684,7 @@
   },
   {
     "id": 1070,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
@@ -698,7 +698,7 @@
   },
   {
     "id": 1080,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/firefox-happy.png", "is_speaking": true }
     ],
@@ -712,7 +712,7 @@
   },
   {
     "id": 1081,
-    "bg": "images/background/club_corner.png",
+    "bg": "images/background/classroom.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -726,7 +726,7 @@
   },
   {
     "id": 2001,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": false }
     ],
@@ -743,7 +743,7 @@
   },
   {
     "id": 2002,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-neutral.png", "is_speaking": true }
     ],
@@ -761,7 +761,7 @@
 
   {
     "id": 2003,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -779,7 +779,7 @@
 
   {
     "id": 2004,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-happy.png", "is_speaking": true }
     ],
@@ -796,7 +796,7 @@
   },
   {
     "id": 2005,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [],
     "sound": "music/circus-8bit.mp3",
     "name": "",
@@ -810,7 +810,7 @@
   },
   {
     "id": 2006,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-neutral.png", "is_speaking": true }
     ],
@@ -827,7 +827,7 @@
   },
   {
     "id": 2007,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-happy.png", "is_speaking": true }
     ],
@@ -844,7 +844,7 @@
   },
   {
     "id": 2008,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-happy.png", "is_speaking": true }
     ],
@@ -861,7 +861,7 @@
   },
   {
     "id": 2009,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-neutral.png", "is_speaking": true }
     ],
@@ -879,7 +879,7 @@
 
   {
     "id": 2010,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-neutral.png", "is_speaking": true }
     ],
@@ -894,7 +894,7 @@
 
   {
     "id": 2011,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-neutral.png", "is_speaking": true }
     ],
@@ -912,7 +912,7 @@
 
   {
     "id": 2012,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -927,7 +927,7 @@
 
   {
     "id": 2013,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
          { "name": "images/characters/player-neutral.png", "is_speaking": false }
     ],
@@ -943,7 +943,7 @@
   },
   {
     "id": 2014,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-happy.png", "is_speaking": true }
     ],
@@ -960,7 +960,7 @@
   },
   {
     "id": 2015,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-neutral.png", "is_speaking": true }
     ],
@@ -977,7 +977,7 @@
   },
   {
     "id": 2016,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-happy.png", "is_speaking": true }
     ],
@@ -994,7 +994,7 @@
   },
   {
     "id": 2017,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-sad.png", "is_speaking": false }
     ],
@@ -1012,7 +1012,7 @@
 
   {
     "id": 2018,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/vlc-neutral.png", "is_speaking": false }
     ],
@@ -1030,7 +1030,7 @@
 
   {
     "id": 2019,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1048,7 +1048,7 @@
 
   {
     "id": 2020,
-    "bg": "images/background/club-media.png",
+    "bg": "images/background/classroom-media.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1065,7 +1065,7 @@
   },
   {
     "id": 3001,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }
     ],
@@ -1079,7 +1079,7 @@
   },
   {
     "id": 3002,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }
     ],
@@ -1093,7 +1093,7 @@
   },
   {
     "id": 3003,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1107,7 +1107,7 @@
   },
   {
     "id": 3004,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
     ],
@@ -1123,7 +1123,7 @@
   },
   {
     "id": 3010,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-happy.png", "is_speaking": true }
     ],
@@ -1137,7 +1137,7 @@
   },
   {
     "id": 3020,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
     ],
@@ -1151,7 +1151,7 @@
   },
   {
     "id": 3030,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
     ],
@@ -1165,7 +1165,7 @@
   },
   {
     "id": 3040,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }
     ],
@@ -1179,7 +1179,7 @@
   },
   {
     "id": 3041,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-sad.png", "is_speaking": true }
     ],
@@ -1195,7 +1195,7 @@
   },
   {
     "id": 3050,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
     ],
@@ -1209,7 +1209,7 @@
   },
   {
     "id": 3060,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
     ],
@@ -1223,7 +1223,7 @@
   },
   {
     "id": 3070,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-happy.png", "is_speaking": true }
     ],
@@ -1237,7 +1237,7 @@
   },
   {
     "id": 3080,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }
     ],
@@ -1251,7 +1251,7 @@
   },
   {
     "id": 3081,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1265,7 +1265,7 @@
   },
   {
     "id": 3082,
-    "bg": "images/background/club-office.png",
+    "bg": "images/background/classroom-paper.png",
     "sprite": [
       { "name": "images/characters/libreoffice-happy.png", "is_speaking": true }
     ],
@@ -1279,7 +1279,7 @@
   },
   {
     "id": 4001,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-neutral.png", "is_speaking": true }
     ],
@@ -1293,7 +1293,7 @@
   },
   {
     "id": 4002,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-happy.png", "is_speaking": true }
     ],
@@ -1307,7 +1307,7 @@
   },
   {
     "id": 4003,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1321,7 +1321,7 @@
   },
   {
     "id": 4004,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-neutral.png", "is_speaking": true }
     ],
@@ -1335,7 +1335,7 @@
   },
   {
     "id": 4005,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-neutral.png", "is_speaking": true }
     ],
@@ -1351,7 +1351,7 @@
   },
   {
     "id": 4010,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-happy.png", "is_speaking": true }
     ],
@@ -1365,7 +1365,7 @@
   },
   {
     "id": 4020,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-sad.png", "is_speaking": true }
     ],
@@ -1379,7 +1379,7 @@
   },
   {
     "id": 4030,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-neutral.png", "is_speaking": true }
     ],
@@ -1393,7 +1393,7 @@
   },
   {
     "id": 4040,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-neutral.png", "is_speaking": true }
     ],
@@ -1407,7 +1407,7 @@
   },
   {
     "id": 4041,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-neutral.png", "is_speaking": true }
     ],
@@ -1421,7 +1421,7 @@
   },
   {
     "id": 4042,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1435,7 +1435,7 @@
   },
   {
     "id": 4043,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-angry.png", "is_speaking": true }
     ],
@@ -1451,7 +1451,7 @@
   },
   {
     "id": 4050,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-happy.png", "is_speaking": true }
     ],
@@ -1465,7 +1465,7 @@
   },
   {
     "id": 4060,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-happy.png", "is_speaking": true }
     ],
@@ -1479,7 +1479,7 @@
   },
   {
     "id": 4070,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-neutral.png", "is_speaking": true }
     ],
@@ -1493,7 +1493,7 @@
   },
   {
     "id": 4080,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-happy.png", "is_speaking": true }
     ],
@@ -1507,7 +1507,7 @@
   },
   {
     "id": 4081,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/obs-happy.png", "is_speaking": true }
     ],
@@ -1521,7 +1521,7 @@
   },
   {
     "id": 4090,
-    "bg": "images/background/obs-studio.png",
+    "bg": "images/background/classroom-video.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1535,7 +1535,7 @@
   },
   {
     "id": 5001,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-angry.png", "is_speaking": true }
     ],
@@ -1549,7 +1549,7 @@
   },
   {
     "id": 5002,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1563,7 +1563,7 @@
   },
   {
     "id": 5003,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-happy.png", "is_speaking": true }
     ],
@@ -1577,7 +1577,7 @@
   },
   {
     "id": 5004,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1591,7 +1591,7 @@
   },
   {
     "id": 5005,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
     ],
@@ -1606,7 +1606,7 @@
   },
   {
     "id": 5010,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-happy.png", "is_speaking": true }
     ],
@@ -1621,7 +1621,7 @@
   },
   {
     "id": 5011,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1635,7 +1635,7 @@
   },
   {
     "id": 5012,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-angry.png", "is_speaking": true }
     ],
@@ -1649,7 +1649,7 @@
   },
   {
     "id": 5020,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
     ],
@@ -1663,7 +1663,7 @@
   },
   {
     "id": 5030,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-happy.png", "is_speaking": true }
     ],
@@ -1679,7 +1679,7 @@
   },
   {
     "id": 5040,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-happy.png", "is_speaking": true }
     ],
@@ -1693,7 +1693,7 @@
   },
   {
     "id": 5041,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
     ],
@@ -1707,7 +1707,7 @@
   },
   {
     "id": 5042,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-angry.png", "is_speaking": true }
     ],
@@ -1721,7 +1721,7 @@
   },
   {
     "id": 5050,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/audacity-happy.png", "is_speaking": true }
     ],
@@ -1735,7 +1735,7 @@
   },
   {
     "id": 5060,
-    "bg": "images/background/sound_room.png",
+    "bg": "images/background/sound-room.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -1749,7 +1749,7 @@
   },
   {
     "id": 6001,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }
     ],
@@ -1765,7 +1765,7 @@
   },
   {
     "id": 6002,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/ffmpeg-sad.png", "is_speaking": true }
     ],
@@ -1779,7 +1779,7 @@
   },
   {
     "id": 6003,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/ffmpeg-angry.png", "is_speaking": true }
     ],
@@ -1793,7 +1793,7 @@
   },
   {
     "id": 6004,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/ffmpeg-angry.png", "is_speaking": true }
     ],
@@ -1807,7 +1807,7 @@
   },
   {
     "id": 6005,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }
     ],
@@ -1823,7 +1823,7 @@
   },
   {
     "id": 6010,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/ffmpeg-happy.png", "is_speaking": true }
     ],
@@ -1837,7 +1837,7 @@
   },
   {
     "id": 6011,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/ffmpeg-happy.png", "is_speaking": true }
     ],
@@ -1851,7 +1851,7 @@
   },
   {
     "id": 6012,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }
     ],
@@ -1865,7 +1865,7 @@
   },
   {
     "id": 6020,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }
     ],
@@ -1879,7 +1879,7 @@
   },
   {
     "id": 6030,
-    "bg": "images/background/school_corridor.png",
+    "bg": "images/background/corridor.png",
     "sprite": [
       { "name": "images/characters/player-neutral.png", "is_speaking": true }
     ],
@@ -2284,30 +2284,37 @@
 		"choices": [
 			{
 				"text": "C'est Firefox. Il est tellement charismatique.",
+				"id_waifu": 1,
 				"id_suivant": 9100
 			},
 			{
 				"text": "C'est LibreOffice. Il est coincé, mais ça le rend intéressant.",
+				"id_waifu": 3,
 				"id_suivant": 9200
 			},
 			{
 				"text": "C'est VLC. Elle est complètement folle, j'adore.",
+				"id_waifu": 2,
 				"id_suivant": 9300
 			},
 			{
 				"text": "C'est Audacity. Son énergie me donne la pêche.",
+				"id_waifu": 5,
 				"id_suivant": 9400
 			},
 			{
 				"text": "C'est OBS. Elle brille de mille feux.",
+				"id_waifu": 4,
 				"id_suivant": 9500
 			},
 			{
 				"text": "C'est FFmpeg. Elle est si mystérieuse et intelligente.",
+				"id_waifu": 6,
 				"id_suivant": 9600
 			},
 			{
 				"text": "C'est Debian. Elle est si mignonne et rassurante.",
+				"id_waifu": 7,
 				"id_suivant": 9700
 			}
 		],
@@ -3304,14 +3311,14 @@
     "sprite": [],
     "name": "system",
     "has_choice": true,
-    "choices": [
-      { "text": "[Réaction Firefox]", "id_suivant": 9950 },
-      { "text": "[Réaction LibreOffice]", "id_suivant": 9951 },
-      { "text": "[Réaction VLC]", "id_suivant": 9952 },
-      { "text": "[Réaction Audacity]", "id_suivant": 9953 },
-      { "text": "[Réaction OBS]", "id_suivant": 9954 },
-      { "text": "[Réaction FFmpeg]", "id_suivant": 9955 },
-      { "text": "[Réaction Debian]", "id_suivant": 9956 }
+    "waifu_choice": [
+      { "id": 1, "id_suivant": 9950 },
+      { "id": 2, "id_suivant": 9952 },
+      { "id": 3, "id_suivant": 9951 },
+      { "id": 4, "id_suivant": 9954 },
+      { "id": 5, "id_suivant": 9953 },
+      { "id": 6, "id_suivant": 9955 },
+      { "id": 7, "id_suivant": 9956 }
     ],
     "color": "#000000"
   },
@@ -3398,7 +3405,7 @@
 
     {
 		"id": 10001,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [],
 		"name": "",
 		"has_choice": false,
@@ -3412,7 +3419,7 @@
 	},
 	{
 		"id": 10002,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/firefox-happy.png",
@@ -3431,7 +3438,7 @@
 	},
 	{
 		"id": 10003,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/firefox-happy.png",
@@ -3450,7 +3457,7 @@
 	},
 	{
 		"id": 10004,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/libreoffice-neutral.png",
@@ -3469,7 +3476,7 @@
 	},
 	{
 		"id": 10005,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/libreoffice-happy.png",
@@ -3488,7 +3495,7 @@
 	},
 	{
 		"id": 10006,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/vlc-neutral.png",
@@ -3507,7 +3514,7 @@
 	},
 	{
 		"id": 10007,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/vlc-happy.png",
@@ -3526,7 +3533,7 @@
 	},
 	{
 		"id": 10008,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/audacity-happy.png",
@@ -3545,7 +3552,7 @@
 	},
 	{
 		"id": 10009,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/ffmpeg-neutral.png",
@@ -3568,7 +3575,7 @@
 	},
 	{
 		"id": 10010,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/ffmpeg-neutral.png",
@@ -3591,7 +3598,7 @@
 	},
 	{
 		"id": 10011,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/obs-happy.png",
@@ -3610,7 +3617,7 @@
 	},
 	{
 		"id": 10012,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/player-happy.png",
@@ -3633,7 +3640,7 @@
 	},
 	{
 		"id": 10013,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [],
 		"name": "",
 		"has_choice": false,
@@ -3647,7 +3654,7 @@
 	},
 	{
 		"id": 10014,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/firefox-happy.png",
@@ -3666,7 +3673,7 @@
 	},
 	{
 		"id": 10015,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/firefox-happy.png",
@@ -3689,7 +3696,7 @@
 	},
 	{
 		"id": 10016,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/libreoffice-happy.png",
@@ -3712,7 +3719,7 @@
 	},
 	{
 		"id": 10017,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
       		  "name": "images/characters/player-happy.png",
@@ -3735,7 +3742,7 @@
 	},
 	{
 		"id": 10018,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/firefox-neutral.png",
@@ -3758,7 +3765,7 @@
 	},
 	{
 		"id": 10019,
-		"bg": "images/background/club_cyber.png",
+		"bg": "images/background/classroom-cyber.png",
 		"sprite": [
 			{
 				"name": "images/characters/player-neutral.png",

@@ -1,0 +1,381 @@
+[
+	{
+		"id": 10001,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [],
+		"name": "",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "La nouvelle de la défaite de Windows s'est répandue comme une traînée de poudre. Libéré du joug des mises à jour forcées, le lycée entier a afflué vers le stand du Club du Libre.",
+				"id_suivant": 10002
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10002,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Bienvenue ! Installez-vous ! Vous voulez un navigateur qui ne vous espionne pas ? C'est par ici !",
+				"id_suivant": 10003
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10003,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Et pour vous mesdemoiselles, j'ai installé l'extension 'Thème K-Pop' en avant-première ! C'est cadeau !",
+				"id_suivant": 10004
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10004,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/libreoffice-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "COUP DE SIFFLET ! Match 4, table 2 ! Le règlement stipule clairement : pas de triche sur les raccourcis clavier !",
+				"id_suivant": 10005
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10005,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/libreoffice-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Voici tes scores exportés en PDF avec graphique d'évolution de performance. Suivant !",
+				"id_suivant": 10006
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10006,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/vlc-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Un fichier .mkv encodé en 2004 ?",
+				"id_suivant": 10007
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10007,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/vlc-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "FACILE ! Suivant ! C'est quoi ça ? Une cassette VHS ? Donnez-moi un trombone et du scotch, je vous lis ça en 1080p !",
+				"id_suivant": 10008
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10008,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/audacity-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "audacity",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "ON MONTE LE VOLUME ! J'ai supprimé les bruits de toux dans la salle en temps réel ! Le son est pur ! Dansez, mes petits paquets de données, dansez !",
+				"id_suivant": 10009
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10009,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/ffmpeg-neutral.png",
+				"is_speaking": true
+			},
+			{
+				"name": "images/characters/debian-neutral.png",
+				"is_speaking": false
+			}
+		],
+		"name": "ffmpeg",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Conversion du flux vidéo pour OBS... Charge CPU : 98%...",
+				"id_suivant": 10010
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10010,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/ffmpeg-neutral.png",
+				"is_speaking": false
+			},
+			{
+				"name": "images/characters/debian-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "debian",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Je redirige la charge sur les cœurs de secours. Le système est stable. Nous n'avons pas eu un seul crash depuis 6 heures. C'est... c'est magnifique.",
+				"id_suivant": 10011
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10011,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/obs-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "obs",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "On est à 5000 viewers ! Le lycée est en Top Tendance ! Regardez cette ambiance ! Et voici notre MVP, le nouveau membre qui a tout rendu possible ! Dis coucou au chat !",
+				"id_suivant": 10012
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10012,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/player-happy.png",
+				"is_speaking": true
+			},
+			{
+				"name": "images/characters/obs-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Pas le temps ! Il faut que je reboote le switch réseau !",
+				"id_suivant": 10013
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10013,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [],
+		"name": "",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Le temps passe. La lumière extérieure change, passant du plein soleil à la lumière dorée de fin d'après-midi. La foule commence à se disperser.",
+				"id_suivant": 10014
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10014,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Wow. Juste... wow.",
+				"id_suivant": 10015
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10015,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-happy.png",
+				"is_speaking": false
+			},
+			{
+				"name": "images/characters/libreoffice-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "J'ai distribué 450 formulaires d'adhésion. C'est un record historique.",
+				"id_suivant": 10016
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10016,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/libreoffice-happy.png",
+				"is_speaking": false
+			},
+			{
+				"name": "images/characters/vlc-happy.png",
+				"is_speaking": true
+			}
+		],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "J'ai mal à mes codecs... mais c'était trop bien !",
+				"id_suivant": 10017
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10017,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+      		  "name": "images/characters/player-happy.png",
+      		  "is_speaking": true
+      		},
+			{
+				"name": "images/characters/vlc-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Le festival ferme ses portes. On a réussi. Windows a eu tort de nous sous-estimer !",
+				"id_suivant": 10018
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10018,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/firefox-neutral.png",
+				"is_speaking": true
+			},
+			{
+				"name": "images/characters/player-happy.png",
+				"is_speaking": false
+			}
+		],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Bien dit !",
+				"id_suivant": 10019
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 10019,
+		"bg": "images/background/club_cyber.png",
+		"sprite": [
+			{
+				"name": "images/characters/player-neutral.png",
+				"is_speaking": true
+			}
+		],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Fiou, j'ai bien besoin de prendre l'air moi...",
+				"id_suivant": 11000
+			}
+		],
+		"color": "#000000"
+	}
+]
