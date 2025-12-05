@@ -2,6 +2,7 @@
 
     import axios from 'axios';
     import { ref } from 'vue';
+    import ParkingInput from "@/components/ParkingInput.vue";
     const isConnecting = ref(true);
     const password = ref('');
     const username = ref('');
@@ -49,6 +50,7 @@
     <div class="loginWindow" v-if="isConnecting">
         <h2 class="loginTitle">Connexion</h2>
         <form class="loginInfo" @submit.prevent="Connect()">
+            <ParkingInput v-model="username" />
             <input class="form-control my-3" v-model="username" type="text" placeholder="Nom d'utilisateur"/>
             <input class="form-control my-3" v-model="password" type="password" placeholder="Mot de passe"/>
             
