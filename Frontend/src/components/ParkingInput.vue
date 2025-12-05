@@ -196,15 +196,9 @@ const carStyle = computed(() => ({
 </script>
 
 <template>
-    <div class="parking-input-wrapper">
-        <div
-            class="fake-input"
-            :class="{ 'filled': modelValue }"
-            @click="startGame"
-        >
-            <span v-if="modelValue">{{ modelValue }}</span>
-            <span v-else class="placeholder">Cliquez pour garer votre pseudo...</span>
-            <span class="icon">{{ modelValue ? '✅' : '🚗' }}</span>
+    <div class="">
+        <div @click="startGame" class="bg-primary rounded-end-3 px-2 py-1 d-flex align-items-center justify-content-center" role="button">
+            <i class="bi bi-car-front-fill fs-4 text-white" />
         </div>
 
         <Teleport to="body">
@@ -269,7 +263,7 @@ const carStyle = computed(() => ({
 }
 
 .placeholder {
-    color: #888;
+    background: white;
 }
 
 /* --- Styles du Jeu --- */

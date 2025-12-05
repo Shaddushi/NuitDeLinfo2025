@@ -43,17 +43,20 @@
 
 
 <template>
-    <div class="loginMain">
-    <div class="h4 flex py-3 W-100">
+    <div class="loginMain bg-light">
+    <div class="h4 text-center bg-primary text-white py-3 W-100">
         Waifree
     </div>
     <div class="loginWindow" v-if="isConnecting">
         <h2 class="loginTitle">Connexion</h2>
         <form class="loginInfo" @submit.prevent="Connect()">
-            <ParkingInput v-model="username" />
-            <input class="form-control my-3" v-model="username" type="text" placeholder="Nom d'utilisateur"/>
-            <input class="form-control my-3" v-model="password" type="password" placeholder="Mot de passe"/>
-            
+            <div class="d-flex w-100">
+                <input class="form-control rounded-end-0 flex-grow-1" v-model="username" type="text" placeholder="Nom d'utilisateur"/>
+                <ParkingInput v-model="username" title="Choisir son pseudo en voiture" />
+            </div>
+
+            <input class="form-control my-3" v-model="password" type="password" placeholder="Mot de passe" style="height: 45px;"/>
+
             <div class="d-flex justify-content-center">
                 <button class="btn btn-primary mt-3" type="submit">Se connecter</button> 
             </div>  
@@ -91,20 +94,13 @@
         flex-direction: column;
     }
 
-
-    .flex {
-        background-color: #121212;
-        color: white;
-        text-align: center;
-    }
-
     .loginWindow {    
         display: flex;
         flex-direction: column;
         align-items: center;     
         justify-content: center;  
         margin: auto;
-        background-color: #121212;
+        background-color: white;
         width: 30vw;
         height: 30vw;
         border: 2px solid #ffffff;
@@ -112,10 +108,7 @@
         padding: 10px;
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
-    .loginTitle {
-        color: white;
-    }
-    
+
     .loginInfo {
         width: 80%;
         height: 60%;
