@@ -191,7 +191,7 @@ const stopGame = () => {
 };
 
 function getPseudos(){
-    axios.get('http://api.devsfecations.fr/user/score/tab').then(function (response) {
+    axios.get('https://api.devsfecations.fr/user/score/tab').then(function (response) {
         users.value = response.data.map(o => o.pseudo)
         console.log(users.value)
     })

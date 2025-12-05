@@ -65,6 +65,7 @@ const props = defineProps({
       transition: 0.3s;
       border-radius: 20px 20px 30px 30px;
       padding: 8px;
+      cursor: pointer;
     }
 
     .card:hover {
@@ -78,6 +79,8 @@ const props = defineProps({
     }
 
     .name{
+        margin-bottom: 5px;
+        margin-top: 5px;
         height: 40px;
         text-align: center;
         color: white;

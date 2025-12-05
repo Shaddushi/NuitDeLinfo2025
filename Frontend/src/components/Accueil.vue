@@ -9,13 +9,17 @@
       <div class="h4 text-center bg-primary text-white py-3 W-100">
           Linus University
       </div>
-    
-      <div class="accueil_phrase w-100">
+      <div class="accueil_phrase">
+                <h1>
+          Nos Personnages
+        </h1>
+        
         <div> 
           Bienvenue a Linus University, un endroit fantastique ou toute personne est libre de devenir qui elle souhaite devenir !
           <br/>
           Voici quelques têtes que vous risquez de rencontrer ici :
         </div>
+
       </div>
       <div class="tab_pres">
         <StudentsCards CharText="Firefox ! Rapide, flexible, il s'entend bien avec tout le monde !" CharName="FireFox" CharImg="/images/characters/firefox-neutral.png"></StudentsCards>
@@ -35,20 +39,32 @@
 <style scoped>
 
     .accueil_phrase{
+
+      width: 80%;
+      max-width: calc(300px * 3);
       font-size: large;
-      margin-left: 20px;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 20px;
       display: flex;
+      flex-direction: column;
       justify-content: center;
     }
 
+    .accueil_phrase h1{
+      color: var(--bs-primary);
+      text-align: center;
+    }
+
     .accueil_phrase div{
-      width: 80%;
+      font-weight: 500;
+      text-align: center;
     }
 
     .Main{
         display: flex;
         flex-direction: column;
+        
       }
 
     .tab_pres{

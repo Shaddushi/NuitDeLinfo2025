@@ -140,7 +140,7 @@ export default {
       const token = localStorage.getItem('token');
       console.log(token);
 
-      axios.post('http://api.devsfecations.fr/user/score', {
+      axios.post('https://api.devsfecations.fr/user/score', {
         score: this.score,
       }, {
         headers: {

@@ -45,7 +45,7 @@ export default {
 
     getAllScores() {
       axios
-          .get('http://api.devsfecations.fr/user/score/tab')
+          .get('https://api.devsfecations.fr/user/score/tab')
           .then((response) => {
             this.scores = response.data.map((user) => ({
               score: user.score,
