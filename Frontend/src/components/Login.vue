@@ -46,16 +46,19 @@
         <h2 class="loginTitle">Connexion</h2>
         <form class="loginInfo" @submit.prevent="Connect()">
             <div class="d-flex w-100">
-                <input class="form-control rounded-end-0 flex-grow-1" v-model="username" type="text" placeholder="Nom d'utilisateur"/>
-                <ParkingInput v-model="username" title="Choisir son pseudo en voiture" />
+                <input class="form-control rounded-start-4 rounded-end-0 flex-grow-1" v-model="username" type="text" placeholder="Nom d'utilisateur"/>
+                <ParkingInput @register="isConnecting=false" v-model="username" title="Choisir son pseudo en voiture" />
             </div>
 
-            <input class="form-control my-3" v-model="password" type="password" placeholder="Mot de passe" style="height: 45px;"/>
+            <input class="form-control rounded-4 my-3" v-model="password" type="password" placeholder="Mot de passe" style="height: 45px;"/>
 
-            <div class="d-flex justify-content-center">
-                <button class="btn btn-primary mt-3" type="submit">Se connecter</button> 
-            </div>  
-            <button class="loginNoProfile" @click="isConnecting=false">Pas de profil ?</button>
+            <button class="btn btn-primary my-3 rounded-4 p-3 w-100 fw-bold" type="submit">Se connecter</button>
+
+            <div class="d-flex w-100 mt-3">
+                <div class="divider h-100 flex-grow-1"></div>
+                <button class="loginNoProfile" @click="isConnecting=false">Pas de profil ?</button>
+                <div class="divider h-100 flex-grow-1"></div>
+            </div>
 
         </form>
 
@@ -83,7 +86,12 @@
 
 <style scoped>
 
-
+    .divider {
+        border-top: #818991 solid 1px;
+        transform: translateY(50%);
+        opacity: 0.6;
+        margin: 0 12px;
+    }
 
     .loginMain{
         height: 100vh;
@@ -119,7 +127,6 @@
         color: #b9b4b4;
         background: none;
         border: none;
-        margin-top: 10px;
     }
 
     .loginNoProfile:hover {

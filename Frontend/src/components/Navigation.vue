@@ -29,7 +29,7 @@
 
     <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="sideMenu">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title text-white">Navigation</h5>
+            <h5 class="offcanvas-title text-primary">Navigation</h5>
             <button type="button" class="btn-close bg-white rounded-circle" data-bs-dismiss="offcanvas"></button>
         </div>
 
@@ -38,30 +38,30 @@
             <div>
             <ul class="list-unstyled">
                 <li class="py-2" v-if="!isLogged">
-                    <a href="/login" class="text-decoration-none text-white fs-5">
+                    <a href="/login" class="text-decoration-none text-white fs-4 nav-link-custom rounded-pill px-3 py-2">
                         <i class="bi bi-chevron-right me-2"/> Se connecter
                     </a>
                 </li>
                 <li class="py-2">
-                    <a href="/" class="text-decoration-none text-white fs-5">
+                    <a href="/" class="text-decoration-none text-white fs-4 nav-link-custom rounded-pill px-3 py-2">
                         <i class="bi bi-chevron-right me-2"/> Accueil
                     </a>
                 </li>
                 <li class="py-2" v-if="isLogged">
-                    <a href="/game" class="text-decoration-none text-white fs-5">
+                    <a href="/game" class="text-decoration-none text-white fs-4 nav-link-custom rounded-pill px-3 py-2">
                         <i class="bi bi-chevron-right me-2"/> Jeu
                     </a>
                 </li>
                 <li class="py-2">
-                  <a href="/credits" class="text-decoration-none text-white fs-5">
+                  <a href="/credits" class="text-decoration-none text-white fs-4 nav-link-custom rounded-pill px-3 py-2">
                     <i class="bi bi-chevron-right me-2"/> Crédits
                   </a>
                 </li>
             </ul>
             </div>
-            <ul class="list-unstyled mt-auto" v-if="isLogged">
+            <ul class="list-unstyled mt-auto bg-primary rounded-4 p-2" v-if="isLogged" @click="logout" role="button">
                 <li class="py-2">
-                  <button @click="logout" class="text-decoration-none text-white fs-5" style="background: none;border: none;">
+                  <button class="text-decoration-none text-white fs-4" style="background: none;border: none;">
                     <i class="bi bi-chevron-right me-2"/> Logout
                   </button>
                 </li>
@@ -71,10 +71,16 @@
 </template>
 
 
-<style scoped>
+<style lang="scss">
     .container-onglet {
         display: flex;
         flex-direction: column;
         height: 100%;
+    }
+
+    .nav-link-custom{
+        &:hover{
+            background-color: var(--bs-primary);
+        }
     }
 </style>

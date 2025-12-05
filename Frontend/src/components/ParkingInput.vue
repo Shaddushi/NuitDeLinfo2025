@@ -1,13 +1,10 @@
 <script setup>
-import {ref, computed, onUnmounted, nextTick, watch} from 'vue';
+import {ref, computed, onUnmounted, nextTick, watch, onMounted} from 'vue';
+import axios from "axios";
 
 // --- PROPS & EMITS ---
 const props = defineProps({
     modelValue: {type: String, default: ''},
-    users: {
-        type: Array,
-        default: () => ['Admin', 'Dev', 'Guest', 'Root', 'User1', 'User2', 'Tester']
-    }
 });
 
 const emit = defineEmits(['update:modelValue']);
@@ -15,7 +12,7 @@ const emit = defineEmits(['update:modelValue']);
 // --- CONSTANTES PHYSIQUES ---
 const ACCEL = 0.2;
 const FRICTION = 0.96;
-const TURN_SPEED = 0.8;
+const TURN_SPEED = 1.3;
 
 // --- STATE ---
 const gameActive = ref(false);
@@ -26,22 +23,23 @@ const keys = {ArrowUp: false, ArrowDown: false, ArrowLeft: false, ArrowRight: fa
 const spots = ref([]);
 const worldWidth = ref(5000);
 const cameraX = ref(0);
+const users = ref([]);
 let animationFrameId = null;
 
 // --- LOGIQUE DU JEU ---
 
 const initWorld = () => {
     const newSpots = [];
-    const spotWidth = 100;
+    const spotWidth = 89;
 
     // Génération dynamique basée sur les props
-    const totalSpots = props.users.length + 10; // Quelques places vides
+    const totalSpots = users.value.length + 5; // Quelques places vides
 
     for (let i = 0; i < totalSpots; i++) {
         const xPos = 400 + (i * spotWidth);
 
         // Assigner un utilisateur ou laisser vide
-        const userName = i < props.users.length ? props.users[i] : 'Libre';
+        const userName = i < users.value.length ? users.value[i] : 'Libre';
 
         newSpots.push({
             id: i,
@@ -49,7 +47,7 @@ const initWorld = () => {
             x: xPos,
             rect: {
                 x: xPos,
-                y: 0, // Ajusté pour le layout
+                y: 0,
                 w: 90,
                 h: 130
             }
@@ -139,11 +137,18 @@ const attemptPark = () => {
 
         if (isUp || isDown) {
             if (validSpot.user === 'Libre') {
-                showMessage("Place libre. Qui êtes-vous ?");
+                showMessage("Redirection vers la création de compte...");
+                setTimeout(() => {
+                    emit('register', validSpot.user);
+                    stopGame();
+                }, 2000)
             } else {
-                // SUCCÈS : On met à jour le v-model
-                emit('update:modelValue', validSpot.user);
-                stopGame();
+                showMessage("Pseudo choisi avec succès ! Redirection vers le formulaire...");
+                setTimeout(() => {
+
+                    emit('update:modelValue', validSpot.user);
+                    stopGame();
+                }, 2000);
             }
         } else {
             showMessage("Vous êtes garé de travers !");
@@ -185,10 +190,21 @@ const stopGame = () => {
     window.removeEventListener('keyup', handleKeyUp);
 };
 
+function getPseudos(){
+    axios.get('http://api.devsfecations.fr/user/score/tab').then(function (response) {
+        users.value = response.data.map(o => o.pseudo)
+        console.log(users.value)
+    })
+}
+
 // Nettoyage si le composant est démonté pendant le jeu
 onUnmounted(() => {
     stopGame();
 });
+
+onMounted(() => {
+    getPseudos();
+})
 
 const carStyle = computed(() => ({
     transform: `translate(${car.value.x}px, ${car.value.y}px) rotate(${car.value.angle}deg)`
@@ -197,7 +213,7 @@ const carStyle = computed(() => ({
 
 <template>
     <div class="">
-        <div @click="startGame" class="bg-primary rounded-end-3 px-2 py-1 d-flex align-items-center justify-content-center" role="button">
+        <div @click="startGame" class="bg-primary rounded-end-4 px-3 py-1 d-flex align-items-center justify-content-center" role="button">
             <i class="bi bi-car-front-fill fs-4 text-white" />
         </div>
 
@@ -216,7 +232,7 @@ const carStyle = computed(() => ({
                                  class="parking-spot"
                                  :class="['spot-top', { 'valid-zone': isCarInSpot(spot) }]"
                                  :style="{ left: spot.x + 'px' }">
-                                <span>{{ spot.user }}</span>
+                                <span :class="{'text-info': spot.user == 'Libre'}">{{ spot.user }}</span>
                             </div>
                             <div class="car" :style="carStyle">
                                 <div class="lights">
@@ -323,7 +339,8 @@ const carStyle = computed(() => ({
 
 .road {
     height: 300px;
-    background: #34495e;
+    width: 100%;
+    background: #272626;
     position: relative;
     border-top: 10px solid #bdc3c7;
     border-bottom: 10px solid #bdc3c7;
@@ -342,6 +359,7 @@ const carStyle = computed(() => ({
     transform: translateY(-50%);
     opacity: 0.5;
 }
+
 
 .parking-spot {
     position: absolute;
@@ -375,7 +393,7 @@ const carStyle = computed(() => ({
 .car {
     width: 44px;
     height: 80px;
-    background: #e74c3c;
+    background: var(--bs-primary);
     border-radius: 6px;
     position: absolute;
     top: 0;
@@ -392,7 +410,7 @@ const carStyle = computed(() => ({
     left: 4px;
     right: 4px;
     bottom: 10px;
-    background: #c0392b;
+    background: #9f0926;
     border-radius: 4px;
 }
 
