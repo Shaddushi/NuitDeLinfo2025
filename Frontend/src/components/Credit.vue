@@ -7,7 +7,15 @@
   >
     <!-- Barre du haut -->
     <div class="top-bar w-100 mb-5">
-      <!-- on retire ms-auto ici -->
+      <div class="top-left">
+        <a href="/scoreboard">
+          <button
+              class="btn btn-light mb-2">
+            Tableau des scores
+          </button>
+        </a>
+      </div>
+
       <h1 class="credits-title">Crédits</h1>
 
       <div class="top-right">
@@ -65,6 +73,8 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: 'Credit',
   data() {
@@ -106,6 +116,7 @@ export default {
           this.timerActive = false;
           clearInterval(this.timerId);
           this.timerId = null;
+          this.sendScore();
         }
       }, 1000);
     },
@@ -124,6 +135,22 @@ export default {
       if (letter !== '  ') {
         this.score++;
       }
+    },
+    sendScore() {
+      const token = localStorage.getItem('token');
+      console.log(token);
+
+      axios.post('http://api.devsfecations.fr/user/score', {
+        score: this.score,
+      }, {
+        headers: {
+          Authorization: token ? `${token}` : '',
+        },
+      }).then(() => {
+        console.log('Score envoyé avec succès');
+      }).catch((error) => {
+        console.error('Erreur lors de l\'envoi du score:', error);
+      });
     },
   },
   beforeUnmount() {
