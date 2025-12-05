@@ -1743,221 +1743,7 @@
     "name": "protagoniste",
     "has_choice": false,
     "choices": [
-      { "text": "Elle vit vraiment dans sa propre fréquence.", "id_suivant": 6000 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5001,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": false,
-    "choices": [
-      { "text": "ET LÀ, ON APPLIQUE L'EFFET PAULSTRETCH ! ÇA VA DURER 400 ANS !", "id_suivant": 5002 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5002,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/player-neutral.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "protagoniste",
-    "has_choice": false,
-    "choices": [
-      { "text": "SALUT ! C'EST MOI, LE NOUVEAU !", "id_suivant": 5003 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5003,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": false,
-    "choices": [
-      { "text": "YO ! Pas besoin de crier, mec ! J'ai vu ta forme d'onde entrer. T'as une bonne fréquence de résonance.", "id_suivant": 5004 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5004,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/player-neutral.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "protagoniste",
-    "has_choice": false,
-    "choices": [
-      { "text": "Merci... je crois ?", "id_suivant": 5005 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5005,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": true,
-    "choices": [
-      { "text": "On fait tout péter. Sature le son !", "id_suivant": 5010 },
-      { "text": "Il y a trop de bruit de fond. Il faut nettoyer ça.", "id_suivant": 5020 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5010,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": true,
-    "choices": [
-      { "text": "Pousser le volume à +3dB", "id_suivant": 5011 },
-      { "text": "Pousser le volume à +50dB", "id_suivant": 5012 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5011,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/player-neutral.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "protagoniste",
-    "has_choice": false,
-    "choices": [
-      { "text": "Raisonnable.", "id_suivant": 5030 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5012,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": false,
-    "choices": [
-      { "text": "OUAIS ! C'EST ÇA ! LE SON EST DEVENU SOLIDE ! ON PEUT MARCHER DESSUS !", "id_suivant": 5030 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5020,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": false,
-    "choices": [
-      { "text": "On va faire une 'Réduction de bruit'. Sélectionne la zone silencieuse et applique le filtre. ...Le souffle a disparu.", "id_suivant": 5030 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5030,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": true,
-    "choices": [
-      { "text": "Liberté, Égalité, Fréquences !", "id_suivant": 5040 },
-      { "text": "ASMR... bruit de clavier mécanique...", "id_suivant": 5041 },
-      { "text": "AAAAAAH !", "id_suivant": 5042 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5040,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": false,
-    "choices": [
-      { "text": "Puissant ! Ça c'est du bon médium ! Réverbération 'Cathédrale'.", "id_suivant": 5050 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5041,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-neutral.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": false,
-    "choices": [
-      { "text": "Ouh... c'est clean. Pas un seul pop. Presque relaxant.", "id_suivant": 5050 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5042,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-angry.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": false,
-    "choices": [
-      { "text": "WOAH ! C'est brut, c'est punk ! Je vais le mettre en boucle avant le drop !", "id_suivant": 5050 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5050,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/audacity-happy.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "audacity",
-    "has_choice": false,
-    "choices": [
-      { "text": "Merci pour la session, le nouveau. T'es un bon plugin. File ! Solo de 15 minutes à exporter en FLAC.", "id_suivant": 5060 }
-    ],
-    "color": "#000000"
-  },
-  {
-    "id": 5060,
-    "bg": "images/background/sound_room.png",
-    "sprite": [
-      { "name": "images/characters/player-neutral.png", "is_speaking": true }
-    ],
-    "sound": "music/drum_bass.mp3",
-    "name": "protagoniste",
-    "has_choice": false,
-    "choices": [
-      { "text": "Elle vit vraiment dans sa propre fréquence.", "id_suivant": 6000 }
+      { "text": "Elle vit vraiment dans sa propre fréquence.", "id_suivant": 6001 }
     ],
     "color": "#000000"
   },
@@ -2115,7 +1901,7 @@
     "name": "protagoniste",
     "has_choice": false,
     "choices": [
-      { "text": "Eh bien... quelle matinée. Entre le volume à 200% d'Audacity et le stress du processeur de FFmpeg, j'ai les oreilles qui bourdonnent. J'ai besoin de calme. De stabilité.", "id_suivant": 5002 }
+      { "text": "Eh bien... quelle matinée. Entre le volume à 200% d'Audacity et le stress du processeur de FFmpeg, j'ai les oreilles qui bourdonnent. J'ai besoin de calme. De stabilité.", "id_suivant": 7002 }
     ],
     "color": "#000000"
   },
@@ -2129,7 +1915,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "System halt ! Arrêtez tout de suite ! Vous générez une interruption matérielle non sollicitée !", "id_suivant": 5003 }
+      { "text": "System halt ! Arrêtez tout de suite ! Vous générez une interruption matérielle non sollicitée !", "id_suivant": 7003 }
     ],
     "color": "#000000"
   },
@@ -2143,7 +1929,7 @@
     "name": "protagoniste",
     "has_choice": false,
     "choices": [
-      { "text": "Désolé... Je cherchais juste un endroit calme.", "id_suivant": 5004 }
+      { "text": "Désolé... Je cherchais juste un endroit calme.", "id_suivant": 7004 }
     ],
     "color": "#000000"
   },
@@ -2157,7 +1943,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "Calme ? C'est plus que du calme ici. C'est la branche 'Stable'. Rien ne bouge. Rien ne change. Rien ne plante.\nTu n'es pas une mise à jour 'Unstable', n'est-ce pas ? Tu ne vas pas casser mes dépendances ?", "id_suivant": 5005 }
+      { "text": "Calme ? C'est plus que du calme ici. C'est la branche 'Stable'. Rien ne bouge. Rien ne change. Rien ne plante.\nTu n'es pas une mise à jour 'Unstable', n'est-ce pas ? Tu ne vas pas casser mes dépendances ?", "id_suivant": 7005 }
     ],
     "color": "#000000"
   },
@@ -2171,7 +1957,7 @@
     "name": "protagoniste",
     "has_choice": false,
     "choices": [
-      { "text": "Promis. Je suis juste un utilisateur standard.", "id_suivant": 5006 }
+      { "text": "Promis. Je suis juste un utilisateur standard.", "id_suivant": 7006 }
     ],
     "color": "#000000"
   },
@@ -2185,7 +1971,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "Bon. 'Utilisateur standard', c'est acceptable. Tant que tu ne demandes pas les privilèges root sans permission.\nJe suis en train d'effectuer la maintenance du catalogue. C'est une tâche qui demande des années. On ne précipite pas les choses ici. Si un livre est mal classé, tout le système s'effondre.", "id_suivant": 5007 }
+      { "text": "Bon. 'Utilisateur standard', c'est acceptable. Tant que tu ne demandes pas les privilèges root sans permission.\nJe suis en train d'effectuer la maintenance du catalogue. C'est une tâche qui demande des années. On ne précipite pas les choses ici. Si un livre est mal classé, tout le système s'effondre.", "id_suivant": 7007 }
     ],
     "color": "#000000"
   },
@@ -2199,8 +1985,8 @@
     "name": "debian",
     "has_choice": true,
     "choices": [
-      { "text": "Je veux t'aider à trier. J'aime quand les choses sont solides et vérifiées.", "id_suivant": 5008 },
-      { "text": "Je préfère apprendre. Enseigne-moi ta philosophie.", "id_suivant": 5100 }
+      { "text": "Je veux t'aider à trier. J'aime quand les choses sont solides et vérifiées.", "id_suivant": 7008 },
+      { "text": "Je préfère apprendre. Enseigne-moi ta philosophie.", "id_suivant": 7100 }
     ],
     "color": "#000000"
   },
@@ -2214,7 +2000,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "Tu aimes la solidité ? Bien. Très bien. La plupart des gens veulent juste 'la dernière nouveauté'. Ils ne comprennent pas que la nouveauté amène les bugs.\nNous allons vérifier l'intégrité de chaque paquet... je veux dire, de chaque livre.", "id_suivant": 5009 }
+      { "text": "Tu aimes la solidité ? Bien. Très bien. La plupart des gens veulent juste 'la dernière nouveauté'. Ils ne comprennent pas que la nouveauté amène les bugs.\nNous allons vérifier l'intégrité de chaque paquet... je veux dire, de chaque livre.", "id_suivant": 7009 }
     ],
     "color": "#000000"
   },
@@ -2229,7 +2015,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "Tu vois ce livre ? Il n'a pas bougé depuis 1998. C'est rassurant, non ? On sait exactement ce qu'il y a dedans.\nTu es méticuleux. Tu ne jettes pas les livres n'importe comment comme le ferait ce fougueux Fedora ou cette tête brûlée d'Arch.", "id_suivant": 5010 }
+      { "text": "Tu vois ce livre ? Il n'a pas bougé depuis 1998. C'est rassurant, non ? On sait exactement ce qu'il y a dedans.\nTu es méticuleux. Tu ne jettes pas les livres n'importe comment comme le ferait ce fougueux Fedora ou cette tête brûlée d'Arch.", "id_suivant": 7010 }
     ],
     "color": "#000000"
   },
@@ -2243,7 +2029,7 @@
     "name": "protagoniste",
     "has_choice": false,
     "choices": [
-      { "text": "C'est reposant, en fait. On se sent en sécurité.", "id_suivant": 5011 }
+      { "text": "C'est reposant, en fait. On se sent en sécurité.", "id_suivant": 7011 }
     ],
     "color": "#000000"
   },
@@ -2257,7 +2043,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "C'est ça, le secret. La sécurité avant tout. On se moque de moi parce que je suis 'vieille école'. Mais quand leurs systèmes crashent le vendredi soir, vers qui ils reviennent en pleurant ? Vers Maman Debian.\nTiens, prends celui-là. Il est lourd, mais il ne te laissera jamais tomber. C'est comme une brique. Une brique de confiance.", "id_suivant": 5012 }
+      { "text": "C'est ça, le secret. La sécurité avant tout. On se moque de moi parce que je suis 'vieille école'. Mais quand leurs systèmes crashent le vendredi soir, vers qui ils reviennent en pleurant ? Vers Maman Debian.\nTiens, prends celui-là. Il est lourd, mais il ne te laissera jamais tomber. C'est comme une brique. Une brique de confiance.", "id_suivant": 7012 }
     ],
     "color": "#000000"
   },
@@ -2271,7 +2057,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "Tu veux comprendre le Code ? L'Éthique ? C'est... inattendu.\nCeci est la documentation. La vraie. Pas les tutoriels YouTube simplifiés.\nLis l'article 1. 'Le Logiciel doit être libre'.\nÇa veut dire quoi pour toi, 'libre' ?", "id_suivant": 5101 }
+      { "text": "Tu veux comprendre le Code ? L'Éthique ? C'est... inattendu.\nCeci est la documentation. La vraie. Pas les tutoriels YouTube simplifiés.\nLis l'article 1. 'Le Logiciel doit être libre'.\nÇa veut dire quoi pour toi, 'libre' ?", "id_suivant": 7101 }
     ],
     "color": "#000000"
   },
@@ -2285,7 +2071,7 @@
     "name": "protagoniste",
     "has_choice": false,
     "choices": [
-      { "text": "Faire ce que je veux ?", "id_suivant": 5102 }
+      { "text": "Faire ce que je veux ?", "id_suivant": 7102 }
     ],
     "color": "#000000"
   },
@@ -2299,7 +2085,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "Non. C'est plus grand que ça. La liberté d'aider ton voisin. La liberté de comprendre comment le monde fonctionne.\nTu sais, mes enfants... Ubuntu, Mint... ils sont partis loin. Ils ont mis du maquillage, des interfaces brillantes. Ils ont oublié d'où ils viennent.\nMais ici, dans ces pages, c'est le cœur pur. Le noyau.", "id_suivant": 5103 }
+      { "text": "Non. C'est plus grand que ça. La liberté d'aider ton voisin. La liberté de comprendre comment le monde fonctionne.\nTu sais, mes enfants... Ubuntu, Mint... ils sont partis loin. Ils ont mis du maquillage, des interfaces brillantes. Ils ont oublié d'où ils viennent.\nMais ici, dans ces pages, c'est le cœur pur. Le noyau.", "id_suivant": 7103 }
     ],
     "color": "#000000"
   },
@@ -2313,7 +2099,7 @@
     "name": "protagoniste",
     "has_choice": false,
     "choices": [
-      { "text": "Tu te sens seule, parfois ?", "id_suivant": 5104 }
+      { "text": "Tu te sens seule, parfois ?", "id_suivant": 7104 }
     ],
     "color": "#000000"
   },
@@ -2327,7 +2113,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "Je ne suis jamais seule. J'ai la communauté. Des milliers de gens qui veillent sur moi, qui corrigent mes moindres erreurs. C'est une forme d'amour, tu ne crois pas ? Un amour très rigoureux, fait de rapports de bugs et de patchs de sécurité.\nMerci d'avoir lu avec moi. C'est agréable de partager le noyau... euh, le savoir.", "id_suivant": 5012 }
+      { "text": "Je ne suis jamais seule. J'ai la communauté. Des milliers de gens qui veillent sur moi, qui corrigent mes moindres erreurs. C'est une forme d'amour, tu ne crois pas ? Un amour très rigoureux, fait de rapports de bugs et de patchs de sécurité.\nMerci d'avoir lu avec moi. C'est agréable de partager le noyau... euh, le savoir.", "id_suivant": 7012 }
     ],
     "color": "#000000"
   },
@@ -2342,7 +2128,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "Le cycle solaire se termine. Le cron job du soir va bientôt s'exécuter.\nTu n'es pas si mal, pour un binaire inconnu. Tu n'as rien cassé. Tu as respecté les dépendances.\nC'est une marque de confiance. Ne la perds pas. Je ne la révoquerai pas... pour l'instant.", "id_suivant": 5013 }
+      { "text": "Le cycle solaire se termine. Le cron job du soir va bientôt s'exécuter.\nTu n'es pas si mal, pour un binaire inconnu. Tu n'as rien cassé. Tu as respecté les dépendances.\nC'est une marque de confiance. Ne la perds pas. Je ne la révoquerai pas... pour l'instant.", "id_suivant": 7013 }
     ],
     "color": "#000000"
   },
@@ -2356,7 +2142,7 @@
     "name": "protagoniste",
     "has_choice": false,
     "choices": [
-      { "text": "Merci, Debian. Je la garderai en sécurité.", "id_suivant": 5014 }
+      { "text": "Merci, Debian. Je la garderai en sécurité.", "id_suivant": 7014 }
     ],
     "color": "#000000"
   },
@@ -2370,7 +2156,7 @@
     "name": "debian",
     "has_choice": false,
     "choices": [
-      { "text": "exit ! Je veux dire... à demain ! Et n'oublie pas de faire tes mises à jour ! Mais pas trop souvent ! Juste quand c'est nécessaire !", "id_suivant": 5015 }
+      { "text": "exit ! Je veux dire... à demain ! Et n'oublie pas de faire tes mises à jour ! Mais pas trop souvent ! Juste quand c'est nécessaire !", "id_suivant": 7015 }
     ],
     "color": "#000000"
   },
@@ -2494,6 +2280,7 @@
 		],
 		"name": "protagoniste",
 		"has_choice": true,
+        "custom_field": "dcfvjghbkjnk,l",
 		"choices": [
 			{
 				"text": "C'est Firefox. Il est tellement charismatique.",
@@ -3378,6 +3165,593 @@
 				"id_suivant": 11000
 			}
 		],
+		"color": "#000000"
+	},
+    {
+		"id": 11000,
+		"bg": "images/background/toit.png",
+		"sprite": [],
+		"name": "narrateur",
+		"has_choice": false,
+		"choices": [
+			{
+				"text": "Le Protagoniste monte les escaliers vers le toit. Le soleil se couche, baignant le lycée d'une lumière dorée. Quelqu'un l'attend là-haut...",
+				"id_suivant": 11001
+			}
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 11001,
+		"bg": "images/background/toit.png",
+		"sprite": [],
+		"name": "",
+		"choices": [],
+		"has_choice": false,
+		"waifu_choice": [
+			{ "id": 1, "id_suivant": 11100 },
+			{ "id": 2, "id_suivant": 11300 },
+			{ "id": 3, "id_suivant": 11200 },
+			{ "id": 4, "id_suivant": 11500 },
+			{ "id": 5, "id_suivant": 11400 },
+			{ "id": 6, "id_suivant": 11600 },
+			{ "id": 7, "id_suivant": 11700 }
+		],
+		"color": "#000000"
+	},
+	
+
+	{
+		"id": 11100,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/firefox-happy.png", "is_speaking": true }],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [{ "text": "Yo ! Je te cherchais partout. Tiens, une canette. Code source ouvert, recette secrète.", "id_suivant": 11101 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11101,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/firefox-happy.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [{ "text": "Merci. C'était... intense, cette journée.", "id_suivant": 11102 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11102,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/firefox-neutral.png", "is_speaking": true }],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [{ "text": "Intense ? C'était légendaire ! Mais surtout toi... Quand ça a commencé à chauffer, tu m'as empêché de planter.", "id_suivant": 11103 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11103,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/firefox-happy.png", "is_speaking": true }],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [{ "text": "J'ai envie de configurer la suite avec toi. On est quoi, toi et moi ? Une session temporaire ? Ou on synchronise nos comptes ?", "id_suivant": 11104 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11104,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/firefox-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": true,
+		"choices": [
+			{ "text": "Je veux que tu sois mon navigateur par défaut. Pour toujours. (Amour)", "id_suivant": 11110 },
+			{ "text": "Tu es mon meilleur pote, Fox. On est inséparables. (Amitié)", "id_suivant": 11120 },
+			{ "text": "C'était une super expérience, mais restons en mode Navigation Privée. (Rien)", "id_suivant": 11130 }
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 11110,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/firefox-happy.png", "is_speaking": true }],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [{ "text": "'Navigateur par défaut'... Ça sonne bien. Je te promets de protéger ton cœur avec le meilleur chiffrement qui existe. Mise à jour du statut relationnel : Terminée.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11120,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/firefox-happy.png", "is_speaking": true }],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [{ "text": "Hahaha ! J'avoue ! Toi et moi, on est comme le HTML et le CSS. Allez, viens, on va fêter ça avec les autres !", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11130,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/firefox-neutral.png", "is_speaking": true }],
+		"name": "firefox",
+		"has_choice": false,
+		"choices": [{ "text": "Je vois. Navigation Privée. Pas de cookies, pas de traces. C'est un choix respectable. Effacer l'historique récent... Tout oublier.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+
+
+	{
+		"id": 11200,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [{ "text": "Recettes du stand : conformes. Taux de satisfaction : 94.3%. Un bilan positif. L'exportation en PDF est prête.", "id_suivant": 11201 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11201,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/libreoffice-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [{ "text": "Tu ne t'arrêtes jamais de travailler, hein ? C'est fini, Libre. Profite de la vue.", "id_suivant": 11202 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11202,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/libreoffice-happy.png", "is_speaking": true }],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [{ "text": "Tu as été efficace. Avec toi... la mise en page a tenu. Je me suis senti pris en charge. C'est une sensation étrange.", "id_suivant": 11203 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11203,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [{ "text": "Je dois définir les propriétés de notre relation pour l'archivage. Quel est le statut de ce fichier commun ?", "id_suivant": 11204 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11204,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/libreoffice-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": true,
+		"choices": [
+			{ "text": "C'est une version finale. Je veux qu'on sauvegarde ça pour toujours. (Amour)", "id_suivant": 11210 },
+			{ "text": "C'est une co-création. On est les meilleurs collègues du monde. (Amitié)", "id_suivant": 11220 },
+			{ "text": "Fermer le document sans sauvegarder. C'était bien, mais c'est fini. (Rien)", "id_suivant": 11230 }
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 11210,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/libreoffice-happy.png", "is_speaking": true }],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [{ "text": "Sauvegarde... automatique ? Alors c'est décidé. Verrouillage du fichier. Accès exclusif. Document enregistré avec succès.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11220,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/libreoffice-happy.png", "is_speaking": true }],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [{ "text": "Une synergie optimale. J'accepte cette proposition. Tu es maintenant 'Vice-Président de la Logistique Emotionnelle'.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11230,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }],
+		"name": "libreoffice",
+		"has_choice": false,
+		"choices": [{ "text": "Je comprends. Incompatibilité de format. Annulation des modifications. Tu peux disposer.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+
+
+	{
+		"id": 11300,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/vlc-neutral.png", "is_speaking": true }],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [{ "text": "Analyse du fichier 'Coucher_de_soleil.real'... Rendu des couleurs... 85%... C'est beau, hein ?", "id_suivant": 11301 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11301,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/vlc-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [{ "text": "Salut VLC. Tu ne devrais pas descendre de là ? C'est dangereux.", "id_suivant": 11302 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11302,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/vlc-happy.png", "is_speaking": true }],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [{ "text": "Danger ? Je ne connais pas ce format ! Avec toi... je n'ai pas eu besoin de forcer. Tout était fluide.", "id_suivant": 11303 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11303,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/vlc-neutral.png", "is_speaking": true }],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [{ "text": "Prends mon cône. C'est symbolique. Alors ? On lance la lecture en boucle ? On ajoute à la file d'attente ? Ou on éjecte le disque ?", "id_suivant": 11304 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11304,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/vlc-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": true,
+		"choices": [
+			{ "text": "Je veux être ton codec universel. Lis-moi pour la vie. (Amour)", "id_suivant": 11310 },
+			{ "text": "Gardons ce cône en trophée. On est l'équipe la plus déjantée. (Amitié)", "id_suivant": 11320 },
+			{ "text": "C'était fun, VLC. Mais je crois qu'il est temps d'arrêter la lecture. (Rien)", "id_suivant": 11330 }
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 11310,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/vlc-happy.png", "is_speaking": true }],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [{ "text": "Vraiment ?! Tu acceptes mes conditions d'utilisation ?! Je vais t'encoder dans mon cœur en format sans perte ! Lecture en cours... Durée : Infinie.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11320,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/vlc-happy.png", "is_speaking": true }],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [{ "text": "YES ! Copains de crash ! On va hacker le système de l'école pour diffuser des films de chats ! C'est parti !", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11330,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/vlc-sad.png", "is_speaking": true }],
+		"name": "vlc",
+		"has_choice": false,
+		"choices": [{ "text": "Je comprends. Erreur de lecture. C'est pas grave. Je vais juste... vider mon cache. Stop.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+
+
+	{
+		"id": 11400,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/audacity-neutral.png", "is_speaking": true }],
+		"name": "audacity",
+		"has_choice": false,
+		"choices": [{ "text": "J'écoute la ville. Le bourdonnement des voitures... C'est une symphonie 'Noise' naturelle.", "id_suivant": 11401 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11401,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/audacity-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [{ "text": "Le festival était bruyant. Je pensais que tu en voudrais encore plus.", "id_suivant": 11402 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11402,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/audacity-happy.png", "is_speaking": true }],
+		"name": "audacity",
+		"has_choice": false,
+		"choices": [{ "text": "C'était ÉNORME ! Mais aujourd'hui, tu as été mon limiteur. J'ai l'impression qu'on a trouvé un bon groove.", "id_suivant": 11403 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11403,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/audacity-neutral.png", "is_speaking": true }],
+		"name": "audacity",
+		"has_choice": false,
+		"choices": [{ "text": "Alors, c'est quoi la suite du projet ? On fait un 'Fade out' ou on remet le son à fond ?", "id_suivant": 11404 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11404,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/audacity-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": true,
+		"choices": [
+			{ "text": "Je veux être ton métronome. On garde ce rythme pour la vie. (Amour)", "id_suivant": 11410 },
+			{ "text": "On est le meilleur duo de DJ ! Prochain concert, on double les basses ! (Amitié)", "id_suivant": 11420 },
+			{ "text": "J'ai besoin de silence, Audacity. Baissons le volume pour de bon. (Rien)", "id_suivant": 11430 }
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 11410,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/audacity-happy.png", "is_speaking": true }],
+		"name": "audacity",
+		"has_choice": false,
+		"choices": [{ "text": "Wouah... T'es poète ou quoi ? Tu sens ça ? 120 BPM. Enregistrement en cours. Ne pas éteindre.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11420,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/audacity-happy.png", "is_speaking": true }],
+		"name": "audacity",
+		"has_choice": false,
+		"choices": [{ "text": "YEAAAAH ! C'est ça que je veux entendre ! On va faire une tournée ! C'est le métier qui rentre !", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11430,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/audacity-neutral.png", "is_speaking": true }],
+		"name": "audacity",
+		"has_choice": false,
+		"choices": [{ "text": "Je capte. Incompatibilité de genre. C'est pas grave. Le silence, c'est important aussi. MERCI POUR LE COUP DE MAIN !", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+
+
+	{
+		"id": 11500,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/obs-neutral.png", "is_speaking": true }],
+		"name": "obs",
+		"has_choice": false,
+		"choices": [{ "text": "... et voilà, le chat. On va passer en scène de fin bientôt. J'allais couper. Pour de vrai.", "id_suivant": 11501 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11501,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/obs-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [{ "text": "C'est rare de te voir 'hors ligne'.", "id_suivant": 11502 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11502,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/obs-neutral.png", "is_speaking": true }],
+		"name": "obs",
+		"has_choice": false,
+		"choices": [{ "text": "C'est l'IRL. Juste la réalité brute. Mais toi... tu as vu les deux. La star et la technicienne. Et tu es resté.", "id_suivant": 11503 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11503,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/obs-happy.png", "is_speaking": true }],
+		"name": "obs",
+		"has_choice": false,
+		"choices": [{ "text": "J'ai besoin de savoir. Pour la prochaine saison... on part sur quel type de contenu ? Je configure une nouvelle scène 'Duo' ?", "id_suivant": 11504 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11504,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/obs-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": true,
+		"choices": [
+			{ "text": "Tu es ma scène principale. Je veux être ton Player 2 pour la vie. (Amour)", "id_suivant": 11510 },
+			{ "text": "C'était le meilleur collab de l'histoire ! On lance une chaîne commune ? (Amitié)", "id_suivant": 11520 },
+			{ "text": "C'était un bon event, mais je préfère rester un simple viewer. (Rien)", "id_suivant": 11530 }
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 11510,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/obs-happy.png", "is_speaking": true }],
+		"name": "obs",
+		"has_choice": false,
+		"choices": [{ "text": "Mon... Player 2 ? C'est le truc le plus 'PogChamp' qu'on m'ait jamais dit. Statut du bonheur : 100%.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11520,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/obs-happy.png", "is_speaking": true }],
+		"name": "obs",
+		"has_choice": false,
+		"choices": [{ "text": "MAIS OUI ! 'La Team Open Source' ! Chat ! Vous avez entendu ?! La saison 2 est confirmée ! Let's goooo !", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11530,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/obs-neutral.png", "is_speaking": true }],
+		"name": "obs",
+		"has_choice": false,
+		"choices": [{ "text": "Je vois. Tu préfères rester dans le 'Lurk'. C'est compréhensible. Merci pour le 'Host'. Allez, End Stream.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+
+
+	{
+		"id": 11600,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }],
+		"name": "ffmpeg",
+		"has_choice": false,
+		"choices": [{ "text": "[PANIC] ! Oh... c'est toi. J'exécute juste un script de nettoyage de mémoire tampon.", "id_suivant": 11601 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11601,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/ffmpeg-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [{ "text": "Tu as été incroyable au festival. Le système n'aurait jamais marché sans toi.", "id_suivant": 11602 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11602,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/ffmpeg-happy.png", "is_speaking": true }],
+		"name": "ffmpeg",
+		"has_choice": false,
+		"choices": [{ "text": "Mais toi... tu as géré l'interface utilisateur. Tu m'as rendue... accessible. Avec toi... la compilation se passe toujours bien.", "id_suivant": 11603 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11603,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/ffmpeg-neutral.png", "is_speaking": true }],
+		"name": "ffmpeg",
+		"has_choice": false,
+		"choices": [{ "text": "J'ai écrit un script pour la suite. 'future_relationship.sh'. Mais il me manque un argument pour le lancer.", "id_suivant": 11604 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11604,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/ffmpeg-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": true,
+		"choices": [
+			{ "text": "Utilise le flag '-love'. Je veux un accès root à ton cœur. (Amour)", "id_suivant": 11610 },
+			{ "text": "On lance le script en mode 'co-op'. On va coder le futur ensemble. (Amitié)", "id_suivant": 11620 },
+			{ "text": "Annule le script (Ctrl+C). C'était un bon projet, mais c'est fini. (Rien)", "id_suivant": 11630 }
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 11610,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/ffmpeg-happy.png", "is_speaking": true }],
+		"name": "ffmpeg",
+		"has_choice": false,
+		"choices": [{ "text": "'-love' ? C'est une commande non documentée ! Mais j'accepte le risque. 'sudo make install love'. Conversion réussie.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11620,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/ffmpeg-happy.png", "is_speaking": true }],
+		"name": "ffmpeg",
+		"has_choice": false,
+		"choices": [{ "text": "'mode: collaborative'. J'aime cette configuration. On pourrait réécrire le protocole du club en Rust ! print('Hello World') !", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11630,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/ffmpeg-sad.png", "is_speaking": true }],
+		"name": "ffmpeg",
+		"has_choice": false,
+		"choices": [{ "text": "Ah. Segmentation fault. Je vois. Je vais... terminer le processus proprement. exit(0).", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+
+
+	{
+		"id": 11700,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/debian-neutral.png", "is_speaking": true }],
+		"name": "debian",
+		"has_choice": false,
+		"choices": [{ "text": "Le calme est l'état naturel du système. J'ai eu peur que tout s'effondre. Mais tu as tenu bon.", "id_suivant": 11701 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11701,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/debian-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": false,
+		"choices": [{ "text": "Tu as été le socle sur lequel tout le monde s'est appuyé.", "id_suivant": 11702 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11702,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/debian-happy.png", "is_speaking": true }],
+		"name": "debian",
+		"has_choice": false,
+		"choices": [{ "text": "Je me sens en sécurité avec toi. J'ai préparé une nouvelle entrée dans mon dépôt officiel. Elle te concerne.", "id_suivant": 11703 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11703,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/debian-neutral.png", "is_speaking": true }],
+		"name": "debian",
+		"has_choice": false,
+		"choices": [{ "text": "Veux-tu être une dépendance critique ? Un contributeur régulier ? Ou un paquet orphelin ?", "id_suivant": 11704 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11704,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/debian-neutral.png", "is_speaking": false }],
+		"name": "protagoniste",
+		"has_choice": true,
+		"choices": [
+			{ "text": "Je veux être ta version LTS (Long Term Support). Je reste avec toi pour toujours. (Amour)", "id_suivant": 11710 },
+			{ "text": "Tu peux me nommer 'Mainteneur Principal'. On va gérer ce club ensemble. (Amitié)", "id_suivant": 11720 },
+			{ "text": "Je préfère rester en version 'Testing'. Je ne suis pas prêt pour tant d'engagement. (Rien)", "id_suivant": 11730 }
+		],
+		"color": "#000000"
+	},
+	{
+		"id": 11710,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/debian-happy.png", "is_speaking": true }],
+		"name": "debian",
+		"has_choice": false,
+		"choices": [{ "text": "LTS... C'est la plus belle chose qu'on m'ait jamais dite ! Je te promets une stabilité absolue. Tu es mon noyau.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11720,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/debian-happy.png", "is_speaking": true }],
+		"name": "debian",
+		"has_choice": false,
+		"choices": [{ "text": "J'accepte ta candidature. Bienvenue dans le cercle des développeurs. On commence par une tasse de thé.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11730,
+		"bg": "images/background/toit.png",
+		"sprite": [{ "name": "images/characters/debian-sad.png", "is_speaking": true }],
+		"name": "debian",
+		"has_choice": false,
+		"choices": [{ "text": "Je comprends. Tu es instable. 'sudo apt-get remove protagonist'. Le système est propre. Adieu.", "id_suivant": 11999 }],
+		"color": "#000000"
+	},
+	{
+		"id": 11999,
+		"bg": "images/background/black.png",
+		"sprite": [],
+		"name": "system",
+		"has_choice": false,
+		"choices": [{ "text": "FIN DU JEU. Merci d'avoir joué à Libre Hearts !", "id_suivant": 11999 }],
 		"color": "#000000"
 	}
 ]
