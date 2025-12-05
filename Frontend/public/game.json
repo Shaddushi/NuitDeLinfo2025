@@ -1042,8 +1042,478 @@
     "choices": [
       {
         "text": "Sacrée VLC... Elle lit peut-être tout, mais il lui faut du temps.",
-        "id_suivant": 2021
+        "id_suivant": 3001
       }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3001,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "2,54 centimètres. Parfait. Une marge standard.", "id_suivant": 3002 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3002,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ah, c'est toi, le nouvel utilisateur. Tu es en retard de 12 secondes sur le planning. Mais passons. As-tu pris connaissance du règlement intérieur du club ?", "id_suivant": 3003 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3003,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Euh, non, pas encore.", "id_suivant": 3004 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3004,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": true,
+    "choices": [
+      { "text": "J'adore quand tout est carré. Les styles, les titres, la hiérarchie...", "id_suivant": 3010 },
+      { "text": "Bof, j'écris tout au kilomètre et je mets en gras à la main.", "id_suivant": 3020 },
+      { "text": "En fait, j'utilise Google Docs. C'est plus simple, non ?", "id_suivant": 3030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3010,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Oh... L'utilisation des Styles de Paragraphe... C'est... c'est la chose la plus sensuelle que j'ai entendue aujourd'hui.", "id_suivant": 3040 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3020,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Du formatage direct ? Quelle barbarie ! Et si tu veux changer la police de tout le document plus tard ? C'est inefficace, sale, amateur !", "id_suivant": 3040 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3030,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ne prononce plus jamais ce nom ici. 'Le Cloud', c'est juste l'ordinateur de quelqu'un d'autre.", "id_suivant": 3040 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3040,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Regarde ce document sur lequel je travaille. Il manque juste une petite image, le logo du club.", "id_suivant": 3041 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3041,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-sad.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": true,
+    "choices": [
+      { "text": "C'est bon, fais Ctrl+Z !", "id_suivant": 3050 },
+      { "text": "Pourquoi tu ne demandes pas à ce trombone animé de t'aider ?", "id_suivant": 3060 },
+      { "text": "Laisse-moi faire. Clic droit, Ancrer à la page.", "id_suivant": 3070 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3050,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Annuler ! La pile d'annulation est corrompue ! Je vais devoir restaurer la sauvegarde automatique d'il y a 10 minutes !", "id_suivant": 3080 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3060,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Lui ? Cette abomination du trombone ? Je préfère mourir corrompu plutôt que d'accepter son aide !", "id_suivant": 3080 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3070,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Ancrer à la page... Le texte coule parfaitement autour. Impressionnant.", "id_suivant": 3080 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3080,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Hum. Désolé pour cet éclat. La gestion des objets flottants est un sujet sensible pour moi. Mais je suis fidèle et gratuit.", "id_suivant": 3081 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3081,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "C'est ça qui compte, LibreOffice. Tu es fiable.", "id_suivant": 3082 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 3082,
+    "bg": "images/background/club-office.png",
+    "sprite": [
+      { "name": "images/characters/libreoffice-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/classic_elevator.mp3",
+    "name": "libreoffice",
+    "has_choice": false,
+    "choices": [
+      { "text": "Merci. Bon. N'oublie pas de sauvegarder en .ODT et ne pars pas trop vite.", "id_suivant": 4001 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4001,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Merci \"xX_Sudo_User_Xx\" pour le sub avec Prime ! Bienvenue dans la Scene Collection ! On vise le Hype Train niveau 5 les amis !", "id_suivant": 4002 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4002,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "OMG ! Le nouveau guest est arrivé ! Transition 'Stinger' ! Et... on est sur la scène 'Just Chatting' ! Dis bonjour au chat !", "id_suivant": 4003 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4003,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Euh... Salut ? Je ne savais pas que j'allais passer à la télé.", "id_suivant": 4004 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4004,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "La télé ? Cringe ! C'est du streaming, boomer ! Du vrai direct... Enfin, avec LUT et noise gate. Alors, c'est quoi ton vibe pour ce stream ?", "id_suivant": 4005 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4005,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": true,
+    "choices": [
+      { "text": "PogChamp ! On va casser internet !", "id_suivant": 4010 },
+      { "text": "Je... je ne suis pas très à l'aise. On peut couper ?", "id_suivant": 4020 },
+      { "text": "C'est quoi ta config ? Tu encodes en x264 ou NVENC ?", "id_suivant": 4030 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4010,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "YES ! C'est ça l'énergie qu'on veut ! Je te mets modo VIP direct. Toi, tu sais comment chauffer une salle. On va faire des clips légendaires !", "id_suivant": 4040 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4020,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-sad.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Oooh, ne sois pas normie. T'inquiète, j'ai un filtre 'Beauté'. Et si tu dis une bêtise, je peux mute ton micro et prétendre que c'est un lag.", "id_suivant": 4040 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4030,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Oula, on a un connaisseur dans le chat ! NVENC évidemment ! Je garde mon CPU pour les alertes animées. Rien de pire qu'un stream qui pixelise.", "id_suivant": 4040 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4040,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Bon, il faut qu'on t'intègre à l'overlay. Attends, je vais te redimensionner.", "id_suivant": 4041 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4041,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Oups ! J'ai pas verrouillé le ratio d'aspect ! Tu es tout écrasé ! Ah ! Capture d'écran de la capture d'écran de la capture d'écran !", "id_suivant": 4042 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4042,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "Euh, OBS ? Je me sens bizarre.", "id_suivant": 4043 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4043,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-angry.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": true,
+    "choices": [
+      { "text": "Arrête ça ! J'ai envie de vomir !", "id_suivant": 4050 },
+      { "text": "C'est philosophique... Je suis partout et nulle part.", "id_suivant": 4060 },
+      { "text": "Désactive la source 'Display Capture', vite !", "id_suivant": 4070 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4050,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Le mal de mer virtuel ? C'est le métier ! Je coupe la source. Retour à 'Scene_BRB_Coffee'.", "id_suivant": 4080 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4060,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Wouah... T'es profond. Tu viens de créer une nouvelle meta. Le stream existentialiste.", "id_suivant": 4080 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4070,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-neutral.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Bien vu ! Je désactive la source. Sauvé du BSOD. Merci, copilote.", "id_suivant": 4080 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4080,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Bon, c'était un bon test ! On a eu des pépins techniques, mais le chat a adoré. T'es une bonne 'source', le nouveau.", "id_suivant": 4081 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4081,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/obs-happy.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "obs",
+    "has_choice": false,
+    "choices": [
+      { "text": "Je t'ajouterai à ma collection. F7 pour arrêter l'enregistrement ! Ciao le chat !", "id_suivant": 4090 }
+    ],
+    "color": "#000000"
+  },
+  {
+    "id": 4090,
+    "bg": "images/background/obs-studio.png",
+    "sprite": [
+      { "name": "images/characters/player.png", "is_speaking": true }
+    ],
+    "sound": "music/stream_safe_lofi.mp3",
+    "name": "player",
+    "has_choice": false,
+    "choices": [
+      { "text": "C'était... intense. J'ai encore des taches lumineuses devant les yeux.", "id_suivant": 5001 }
     ],
     "color": "#000000"
   }
