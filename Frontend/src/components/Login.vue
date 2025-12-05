@@ -25,7 +25,7 @@
 
     function createAccount(){
         axios.post('http://api.devsfecations.fr/user/signin',  {
-            username: username.value,
+            pseudo: username.value,
             password: password.value
             }).then(function (response) {
                 console.log(response)
@@ -34,7 +34,7 @@
                     return;
                 }
                 localStorage.setItem('token', response.data.token);
-                window.location.replace("/");
+                // window.location.replace("/");
             })
     }
 
@@ -64,7 +64,7 @@
     </div>
     <div class="loginWindow" v-else>
         <h2 class="loginTitle">Création de compte</h2>
-        <form class="loginInfo" @submit="createAccount()">
+        <form class="loginInfo" @submit.prevent="createAccount()">
             <input class="form-control my-3" v-model="username" type="text" placeholder="Nom d'utilisateur"/>
             <input class="form-control my-3" v-model="password" type="password" placeholder="Mot de passe"/>
             
