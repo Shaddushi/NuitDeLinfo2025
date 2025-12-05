@@ -1,18 +1,17 @@
 <template>
     <div class="h-100 w-100 bg-light custom-background" :style="`background-image: url('`+currentBackground+`')`">
-        <div class="position-absolute p-3">
-            <div class="bg-danger ">
-                {{finished}}
-            </div>
-        </div>
+<!--        <div class="position-absolute p-3">-->
+<!--            <div class="bg-danger ">-->
+<!--                {{finished}}-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="d-flex flex-column h-100 p-4">
             <div class="flex-grow-1">
-                ici
+
             </div>
 
             <div class="">
                 <div class="row">
-                    {{currentId}}
                     <div class="col d-flex justify-content-center" v-for="sprite in sprites">
 
                         <div class="position-relative">
@@ -25,7 +24,7 @@
 
                     </div>
                 </div>
-                <div class="bg-white border border-3 border-dark custom-border-2 shadow conversation fs-5 position-relative"
+                <div class="text bg-white border border-3 border-dark custom-border-2 shadow conversation fs-5 position-relative"
                  @click="nextConversation(null)"
                 :class="{
                     'cursor-pointer': currentTexts.length == 1
@@ -38,11 +37,13 @@
 
                     <div class="p-4">
                         <div
+                        class="py-2"
                         v-for="(text, i) in currentTexts"
                         :key="currentId + '-' + i">
                             <Writer
                             :text="text.text"
-                            class="choice-line"
+                            :is-choice="current.has_choice"
+                            :class="{'choice-line': current?.has_choice}"
                             :ref="'writer-'+i"
                             @finished="finished = true"
                             @click.stop="nextConversation(text.id_suivant)" />
@@ -50,8 +51,8 @@
 
                     </div>
 
-                    <div class="position-absolute px-4 py-4 bottom-0 custom-right">
-                        <img src="/images/skip.png" />
+                    <div class="position-absolute px-4 py-4 bottom-0 custom-right" v-if="!current.has_choice">
+                        <img src="/images/skip.png" class="skip-image" />
                     </div>
 
                 </div>
@@ -120,12 +121,10 @@ export default {
         nextConversation(id_suivant){
 
             if(!id_suivant){
-                if(this.current.has_choices){
+                if(this.current.has_choice){
                     return;
                 }
                 if(!this.finished){
-                    console.log(this.$refs)
-                    console.log(this.$refs['writer-0'])
                     this.$refs['writer-0'][0].forceFinish();
                     return;
                 }
@@ -197,6 +196,13 @@ export default {
     &:hover{
         text-decoration: underline;
     }
+}
+
+.text{
+    user-select: none;
+}
+
+.skip-image{
     user-select: none;
 }
 </style>
